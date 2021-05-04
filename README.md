@@ -1,4 +1,6 @@
-# Notas sobre InfoSec
+# Notas sobre InfoSec 
+**Autor**: Anibal Ardid
+
 Este documento va sobre notas acerca de seguridad en aplicaciones web, pentesting y bug bounty.
 El documento es en Español, dado que hay poca info en nuestro idioma.
 
@@ -6,7 +8,7 @@ El documento es en Español, dado que hay poca info en nuestro idioma.
 
 >Colaboraciones: En caso de querer colaborar se pueden enviar pull/merge request en este mismo repositorio.
 
-## Diccionario
+## :notebook: Diccionario
 Algunas frases o palabras pueden confundir al principio. Por lo cual acá dejo algunas para no perderse en el documento. Algunas están explicadas con palabras mias para que sean de facil entendimiento.
 
 - Pentesting: Prueba de intrusión de sistemas
@@ -17,7 +19,7 @@ Algunas frases o palabras pueden confundir al principio. Por lo cual acá dejo a
 - Write-Ups: Posts, o papers de gente que escribe el paso a paso de como encontró una vulnerabilidad.
 - OWASP: Es un proyecto de código abierto dedicado a determinar y combatir las causas que hacen que el software sea inseguro. (https://owasp.org/ , https://wiki.owasp.org/images/5/5e/OWASP-Top-10-2017-es.pdf )
 
-## Laboratorios
+## :microscope: Laboratorios
 
 Para realizar pruebas tenemos diferentes formas: probar en un entorno productivo, en un entorno de pruebas, en entornos locales, o también podemos probar en laboratorios (online o locales).
 Estos últimos son entornos preparados especialmente para realizar pruebas.
@@ -45,17 +47,18 @@ https://www.hackthebox.eu/
 https://academy.hackthebox.eu/
 https://help.hackthebox.eu/
 
-## Vulnerabilidades
+## :bomb: Vulnerabilidades
 Para conocer el TOP 10 de vulnerabilidades, de que se tratan, ejemplos, etc. Lo mas recomendable es inicial con la página de OWASP, mas especificamente el TOP 10 de OWASP.
+
 https://wiki.owasp.org/images/5/5e/OWASP-Top-10-2017-es.pdf
 
 
-## Cursos, tutoriales
+## :book: Cursos, tutoriales
 
 https://portswigger.net/web-security/all-materials
 
 
-## Plataformas de Bug Bounty
+## :moneybag: Plataformas de Bug Bounty
 
 - Hackerone [https://www.hackerone.com/]
 - Bugcrowd [https://www.bugcrowd.com/]
