@@ -107,6 +107,10 @@ afl++
 https://github.com/AFLplusplus/AFLplusplus  
 https://github.com/antonio-morales/EkoParty_Advanced_Fuzzing_Workshop  
 
+FFuF  
+https://github.com/ffuf/ffuf  
+https://blog.intigriti.com/2021/05/03/hacker-tools-ffuf-fuzz-faster-u-fool-2/  
+
 
 ## Helper  
 Ayuda para crear busquedas en Google  

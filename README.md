@@ -184,7 +184,7 @@ https://github.com/alanbriangh/Magic-CheckList-for-Web-Applications/blob/master/
 
 ---
 
-## :pencil2: Oneliners
+## :computer: Oneliners
 
 - oneliner to get links from the target itself
 ```bash
@@ -210,22 +210,23 @@ cat all-domain-extensions.txt | sed 's/FUZZ/redbull/gi' | assetfinder --subs-onl
 ## :earth_americas: Servicios online
 Pagos y gratuitos
 
-PenTest.WS
+PenTest WS  
 https://pentest.ws/features
 
 
 ---
 
-## Reportes
+## :pencil2: Reportes
 Ejemplo de reportes
 
 ### Penetration Test Report  
 https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf 
 
+
 ---
 
 
-## Herramientas  
+## :wrench: Herramientas  
 
 * [Recon](tools/recon.md)  
 
@@ -234,5 +235,29 @@ https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf
 * [Popurri Varios](tools/popurri.md)  
 
 * [Payloads](tools/payloads.md)  
+
+
+---
+
+
+## :tv: Apuntes de cursos realizados  
+
+
+[Aprenda Hacking Web y Pentesting](https://docs.google.com/document/d/10o9liBmBNCVwSOPDAdBL9mNI2oumCjHWNnqMQoZpf54/edit?usp=sharing)  
+
+[Bug Bounty Hunting and Web Application Hacking](https://docs.google.com/document/d/1ucBITVKojczWS2F1zwDVXTRy5ZW90oFKPswjFn1b7Q4/edit?usp=sharing)  
+
+[Getting Started with OWASP Zed Attack Proxy (ZAP) for Web Application Penetration Testing](https://docs.google.com/document/d/1F8Vy4ecEP8SULywGtQZKOkKAfcMj5r1WEjdvxhf4Z78/edit?usp=sharing)  
+
+[Testing Applications for CompTIA PenTest+](https://docs.google.com/document/d/1hyjcYorH_drz4doIle9Idnk4J3hGd9Af63CNK4zcTjU/edit?usp=sharing)  
+
+[AngularJS Security Fundamentals](https://docs.google.com/document/d/1m2ptf8fEnQW5MdRGMIcq1wppmnDWTHQHdj2issKMdgI/edit?usp=sharing)  
+
+[Web Application Penetration Testing: Insecure Error Handling](https://docs.google.com/document/d/1VnrjOzSuWuoI_Jqmztp4bxfEcVkDmCHhgTthCuR9MZo/edit?usp=sharing)  
+
+[Web App Penetration Testing: Input Validation](https://docs.google.com/document/d/1yR3NaNLKOBPHKP-CrFXvnCEJvCbGr6PQqqq0b1ins_A/edit?usp=sharing)  
+
+[Web App Hacking: Cross-Site Request Forgery (CSRF) ](https://docs.google.com/document/d/1v8m8h1I-tlH7vzCoJ1y41ZSMwP23J8YAn2YJ23P1Jog/edit?usp=sharing)  
+
 
 
