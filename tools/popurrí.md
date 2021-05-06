@@ -150,6 +150,12 @@ Offensive Docker
 https://github.com/aaaguirrep/offensive-docker  
 
 
+Search in Google  
+https://www.exploit-db.com/google-hacking-database  
+
+
+Hacks to search in Google Dorks  
+https://pentest-tools.com/information-gathering/google-hacking  
 
 
 

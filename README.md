@@ -119,10 +119,8 @@ https://www.youtube.com/watch?v=p4JgIu1mceI
 LevelUp 0x02 - Bug Bounty Hunter Methodology v3  
 https://www.youtube.com/watch?v=Qw1nNPiH_Go
 
-
 Curso Introducción al pentesting en español (lista de youtube)  
 https://www.youtube.com/watch?v=v8E0_Swe89c&list=PLXm1FM6zsxpBxKtPzT-pQVKoUFXZkuqkh  
-
 
 Bug Bounty Roadmap  
 The Bug Hunter’s Methodology v4 Roadmap  
@@ -150,9 +148,11 @@ Awesome-Bugbounty-Writeups
 Lista curada de writeups de bug bounty, inspirada en https://github.com/ngalongc/bug-bounty-reference    
 https://github.com/devanshbatham/Awesome-Bugbounty-Writeups   
 
-
 Guía de uso básico de Burp Suite (ingles)  
 https://infosecwriteups.com/basic-burp-suite-usage-c23cf65152f2  
+
+Curso de S4vitar  
+https://www.mastermind.ac/courses/introduccion-al-hacking-etico  
 
 ---
 
