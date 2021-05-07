@@ -10,7 +10,9 @@ El documento es en Español, dado que hay poca info en nuestro idioma.
 
 >Colaboraciones: En caso de querer colaborar se pueden enviar pull/merge request en este mismo repositorio.
 
+
 ---
+
 
 ## :notebook: Diccionario
 Algunas frases o palabras pueden confundir al principio. Por lo cual acá dejo algunas para no perderse en el documento. Algunas están explicadas con palabras mias para que sean de facil entendimiento.
@@ -21,12 +23,13 @@ Algunas frases o palabras pueden confundir al principio. Por lo cual acá dejo a
 - Red team: Equipo enfocado al ataque. Seguridad ofensiva
 - Purple team: Equipo mixto entre blue y red 
 - Write-Ups: Posts, o papers de gente que escribe el paso a paso de como encontró una vulnerabilidad
-- OWASP: Es un proyecto de código abierto dedicado a determinar y combatir las causas que hacen que el software sea inseguro. (https://owasp.org/ , https://wiki.owasp.org/images/5/5e/OWASP-Top-10-2017-es.pdf )
+- OWASP: Es un proyecto de código abierto dedicado a determinar y combatir las causas que hacen que el software sea inseguro. ( https://owasp.org/ , https://wiki.owasp.org/images/5/5e/OWASP-Top-10-2017-es.pdf )
 - Oneliner: Se refiere a usar una sola linea de comando para obtener un X resultado. Muchas veces son combinaciones de varios comandos en una sola linea concatenados
 - OSINT: Inteligencia de Fuentes Abiertas. Es una metodología multifactorial de recolección, análisis y toma de decisiones sobre datos de fuentes disponibles de forma pública para ser utilizados en un contexto de inteligencia
 
 
 ---
+
 
 ## :microscope: Laboratorios
 
@@ -81,6 +84,7 @@ https://www.youtube.com/c/JulioUre%C3%B1a/videos
 
 ---
 
+
 ## :bomb: Vulnerabilidades
 Para conocer el TOP 10 de vulnerabilidades, de que se tratan, ejemplos, etc. Lo mas recomendable es inicial con la página de OWASP, mas especificamente el TOP 10 de OWASP.
 
@@ -94,6 +98,7 @@ https://www.exploit-db.com/
 
 
 ---
+
 
 ## :mortar_board: Cursos, Tutoriales, Academias
 
@@ -154,7 +159,9 @@ https://infosecwriteups.com/basic-burp-suite-usage-c23cf65152f2
 Curso de S4vitar  
 https://www.mastermind.ac/courses/introduccion-al-hacking-etico  
 
+
 ---
+
 
 ## :moneybag: Plataformas de Bug Bounty
 
@@ -164,6 +171,7 @@ https://www.mastermind.ac/courses/introduccion-al-hacking-etico
 
 
 --- 
+
 
 ## :ballot_box_with_check: Cheat Sheets
 Diferentes plantillas para tener a mano comandos utiles, checklists, herramientas...
@@ -181,8 +189,15 @@ https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 https://github.com/alanbriangh/Magic-CheckList-for-Web-Applications/blob/master/Magic%20CheckList%20for%20Web%20Applications.md  
 https://github.com/alanbriangh/Magic-CheckList-for-Web-Applications/blob/master/Magic-CheckList-for-Web-Applications-EN.MD  
 
+### pentestmonkey - Reverse Shell  
+http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet  
+
+### SQL Injection  
+http://pentestmonkey.net/category/cheat-sheet/sql-injection  
+
 
 ---
+
 
 ## :computer: Oneliners
 
@@ -207,6 +222,7 @@ cat all-domain-extensions.txt | sed 's/FUZZ/redbull/gi' | assetfinder --subs-onl
 
 ---
 
+
 ## :earth_americas: Servicios online
 Pagos y gratuitos
 
@@ -216,12 +232,15 @@ https://pentest.ws/features
 
 ---
 
+
 ## :pencil2: Reportes
 Ejemplo de reportes
 
 ### Penetration Test Report  
 https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf 
 
+### HackerOne Top Reports  
+https://github.com/reddelexc/hackerone-reports  
 
 ---
 

