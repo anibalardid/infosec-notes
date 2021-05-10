@@ -160,6 +160,13 @@ Hacks to search in Google Dorks
 https://pentest-tools.com/information-gathering/google-hacking  
 
 
+Nuclei  
+https://github.com/projectdiscovery/nuclei  
+https://www.youtube.com/watch?v=KNM9oNPYikY  
+https://www.youtube.com/watch?v=2girdFTMYLY  
+https://www.youtube.com/watch?v=ZcG8ARatgs0  
+
+
 ## Tips  
 
 ### Comandos al ingresar por shell (reverse shell)  
@@ -212,6 +219,16 @@ maquina local:
 maquina ataque:  
 ./chisel client ip:puerto  
 
+### Borrado seguro de archivos  
+scrub y shred  
+
+### TMUX  
+Oh My TMUX  
+https://github.com/gpakosz/.tmux  
+
+Cheat Sheet  
+https://gist.github.com/anibalardid/d5db8be18cabafe9fc8eea28c3fae2f7  
+
 
 ### Steghide - Esteganografía  
 Buscar contenido en las imágenes  
@@ -222,4 +239,13 @@ https://github.com/Va5c0/Steghide-Brute-Force-Tool
 https://github.com/Paradoxis/StegCracker  
 
 
+### Bouonty Steps  
+
+- Opcion 1  
+  amass->httpx->gau->kxss  
+https://github.com/OWASP/Amass  
+https://github.com/projectdiscovery/httpx  
+https://github.com/lc/gau  
+https://github.com/tomnomnom/hacks/tree/master/kxss  
+https://github.com/Emoe/kxss  
 

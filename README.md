@@ -137,6 +137,17 @@ https://backtrackacademy.com/
 Guía básica de NMAP  
 https://hackear.com.ar/guia-basica-nmap/
 
+Guía de uso básico de Burp Suite (ingles)  
+https://infosecwriteups.com/basic-burp-suite-usage-c23cf65152f2  
+
+Curso de S4vitar  
+https://www.mastermind.ac/courses/introduccion-al-hacking-etico  
+
+Preparación para el OSCP (by s4vitar)  
+https://s4vitar.github.io/oscp-preparacion  
+
+
+### Write-Ups  
 Recon Everything  
 https://infosecwriteups.com/recon-everything-48aafbb8987  
 
@@ -153,11 +164,10 @@ Awesome-Bugbounty-Writeups
 Lista curada de writeups de bug bounty, inspirada en https://github.com/ngalongc/bug-bounty-reference    
 https://github.com/devanshbatham/Awesome-Bugbounty-Writeups   
 
-Guía de uso básico de Burp Suite (ingles)  
-https://infosecwriteups.com/basic-burp-suite-usage-c23cf65152f2  
+AllPocsFromHackerOne  
+https://github.com/bminossi/AllVideoPocsFromHackerOne  
 
-Curso de S4vitar  
-https://www.mastermind.ac/courses/introduccion-al-hacking-etico  
+
 
 
 ---
