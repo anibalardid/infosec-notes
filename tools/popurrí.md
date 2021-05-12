@@ -167,6 +167,11 @@ https://www.youtube.com/watch?v=2girdFTMYLY
 https://www.youtube.com/watch?v=ZcG8ARatgs0  
 
 
+Awesome Bug Bounty Tools Awesome  
+A curated list of various bug bounty tools  
+https://github.com/vavkamil/awesome-bugbounty-tools  
+
+
 ## Tips  
 
 ### Comandos al ingresar por shell (reverse shell)  
@@ -248,4 +253,42 @@ https://github.com/projectdiscovery/httpx
 https://github.com/lc/gau  
 https://github.com/tomnomnom/hacks/tree/master/kxss  
 https://github.com/Emoe/kxss  
+
+GF Patterns:  
+```bash
+git clone https://github.com/1ndianl33t/Gf-Patterns
+mkdir .gf
+mv ~/Gf-Patterns/*.json ~/.gf 
+```
+
+
+Pasos:  
+```bash
+amass enum -passive -d hilton.com -noalts -o hosts.txt  
+#cat hosts.txt | httpx   
+httpx -l hosts.txt -silent > httpx.txt
+# subfinder -d hackerone.com | httpx -title -tech-detect -status-code -title -follow-redirects
+
+```  
+
+- Opcion 2
+https://www.infosecmatter.com/bug-bounty-tips-8-oct-14/#7_simple_reflected_xss_scenario  
+
+Run subfinder -d target.com | httprobe -c 100 > target.txt  
+Run cat target.txt | waybackurls | gf xss | kxss  
+Got a URL which had all the special characters unfiltered and the parameter was callback=  
+
+- Opcion 3
+https://twitter.com/nullenc0de/status/1236047455831101446  
+
+Methodology:  
+1) Identify bug bounty  
+2) Enumerate sub domains (I use amass, subfinder)  
+3) Feed those to httpprobe  
+4) Feed that list to a crawling tool  (hakcrawler)  
+5) Feed that list to kxss  
+6) grep output for " (easiest win)  
+
+assetfinder target.com | hakrawler | kxss 
+
 

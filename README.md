@@ -146,6 +146,16 @@ https://www.mastermind.ac/courses/introduccion-al-hacking-etico
 Preparación para el OSCP (by s4vitar)  
 https://s4vitar.github.io/oscp-preparacion  
 
+Recon guide pentesters and bug bounty  
+https://www.offensity.com/de/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/  
+
+Web Application Penetration Testing Course  
+(youtube links)  
+https://hackingresources.com/web-application-penetration-testing-course/  
+
+e-Learning del curso de EJPT  
+https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student  
+
 
 ### Write-Ups  
 Recon Everything  
@@ -287,6 +297,23 @@ https://github.com/reddelexc/hackerone-reports
 [Web App Penetration Testing: Input Validation](https://docs.google.com/document/d/1yR3NaNLKOBPHKP-CrFXvnCEJvCbGr6PQqqq0b1ins_A/edit?usp=sharing)  
 
 [Web App Hacking: Cross-Site Request Forgery (CSRF) ](https://docs.google.com/document/d/1v8m8h1I-tlH7vzCoJ1y41ZSMwP23J8YAn2YJ23P1Jog/edit?usp=sharing)  
+
+
+---
+
+## :checkered_flag: Certificaciones
+
+eJPT  
+(u$d 200)  
+(Sin Active Directory)  
+https://elearnsecurity.com/product/ejpt-certification/  
+Cheat Sheet  
+https://githubmemory.com/repo/tejasanerao/eJPT-Cheatsheet  
+http://alexchaoyihuang.blogspot.com/2020/04/nmap-cheat-sheet.html  
+
+OSCP  
+(€ 1000)  
+https://www.offensive-security.com/pwk-oscp/  
 
 
 
