@@ -71,8 +71,12 @@ https://gchq.github.io/CyberChef/
 
 
 OneLiners para BugBounty  
-https://github.com/KingOfBugbounty/KingOfBugBountyTips
+https://github.com/KingOfBugbounty/KingOfBugBountyTips  
 
+https://github.com/twseptian/oneliner-bugbounty  
+
+Oneliner para buscar patrones en todos los objetos de un repositorio GIT (by @tomnomnom)  
+{ find .git/objects/pack/ -name "*.idx"|while read i;do git show-index < "$i"|awk '{print $2}';done;find .git/objects/ -type f|grep -v '/pack/'|awk -F'/' '{print $(NF-1)$NF}'; }|while read o;do git cat-file -p $o;done|grep -E '<pattern>'  
 
 Recopilado de tools  
 https://start.me/p/m6XMmk/ethical-hacking
@@ -96,6 +100,10 @@ https://github.com/snoopysecurity/awesome-burp-extensions
 
 https://github.com/sting8k/BurpSuite_403Bypasser 
 
+HopLa  
+All the power of PayloadsAllTheThings, without the overhead. This extension adds autocompletion support and useful payloads in Burp Suite to make your intrusion easier.  
+https://github.com/synacktiv/HopLa  
+
 
 WHM Tools  
 Desde una web, seleccionando q herramientas queremos, crea un instalador de las mismas  
@@ -104,11 +112,21 @@ https://whw-tools.hahwul.com/
 
 Herramientas utiles para explotacion  
 Por ejemplo servicios online que quedan a la espera de request y podemos ver el contenido, headers, etc del request recibido  
+Alternativas a Burp Collaborator  
 https://webhook.site 
 https://requestcatcher.com 
-https://canarytokens.org/generate 
 http://dnsbin.zhack.ca 
 https://ngrok.com 
+http://interact.sh/  
+https://dnslog.cn   
+https://webhook.site  
+https://interact.projectdiscovery.io  
+https://pingb.in  
+https://swin.es  
+https://ceye.io  
+https://canarytokens.org  
+https://requestbin.net  
+https://beeceptor.com  
 
 
 Hetty  
@@ -168,8 +186,23 @@ https://www.youtube.com/watch?v=ZcG8ARatgs0
 
 
 Awesome Bug Bounty Tools Awesome  
-A curated list of various bug bounty tools  
+A curated list of various bug bounty tools   
 https://github.com/vavkamil/awesome-bugbounty-tools  
+
+
+Spyse  
+Recon de hosts, busca con diferentes sufijos , subdominios, tira también CVE 
+https://spyse.com/  
+
+JS tools  
+https://github.com/GerbenJavado/LinkFinder  
+https://github.com/m4ll0k/SecretFinder  
+https://github.com/Sh1Yo/x8  
+
+
+Mails Temporales  
+https://www.guerrillamail.com/  
+
 
 
 ## Tips  
@@ -244,9 +277,9 @@ https://github.com/Va5c0/Steghide-Brute-Force-Tool
 https://github.com/Paradoxis/StegCracker  
 
 
-### Bouonty Steps  
+### Estrategias/Métodologías de Bug Bounty
 
-- Opcion 1  
+- Opción 1  
   amass->httpx->gau->kxss  
 https://github.com/OWASP/Amass  
 https://github.com/projectdiscovery/httpx  
@@ -269,16 +302,19 @@ amass enum -passive -d hilton.com -noalts -o hosts.txt
 httpx -l hosts.txt -silent > httpx.txt
 # subfinder -d hackerone.com | httpx -title -tech-detect -status-code -title -follow-redirects
 
+
 ```  
 
-- Opcion 2
+- Opción 2
 https://www.infosecmatter.com/bug-bounty-tips-8-oct-14/#7_simple_reflected_xss_scenario  
 
-Run subfinder -d target.com | httprobe -c 100 > target.txt  
-Run cat target.txt | waybackurls | gf xss | kxss  
+Run  
+subfinder -d target.com | httprobe -c 100 > target.txt  
+Run  
+cat target.txt | waybackurls | gf xss | kxss  
 Got a URL which had all the special characters unfiltered and the parameter was callback=  
 
-- Opcion 3
+- Opción 3
 https://twitter.com/nullenc0de/status/1236047455831101446  
 
 Methodology:  
@@ -290,5 +326,35 @@ Methodology:
 6) grep output for " (easiest win)  
 
 assetfinder target.com | hakrawler | kxss 
+
+- Opción 4 
+1) Buscar si hay una página de registro y login. Probar registrarse o loguearse, incluyendo probar:
+   1)  XSS
+   2)  Probar diferentes vectores de ataques en cualquier input q se prueda probar
+2)  Ingresar o registrarse como un usuario normal
+    1)  monitorizando todo con Burp suite o similar
+    2)  tomar nota , haciendo un mapa mental
+3)  Prestar atencion a permisos, diferentes secciones de la aplicación, comunicacion con otras aplicaciones, etc
+4)  Revisar si la web tiene un manual, buscarlo con google dorks
+5)  Si usas Burp Suite Pro , puede arrojar falsos positivos, por lo cual, todo tiene q ser reproducible y demostrar un impacto.
+6)  
+
+## Como usar Burp Suite
+
+### Configuración inicial
+1) Instalar en el browser Foxy Proxy (o configurar a mano el proxy)
+2) La config del proxy se encuentra en Proxy - Options 
+3) Exportar el archivo del certificado .der
+4) Importar certificado en el browser, en la sección de entidades , debe preguntar opciones al importar
+5) Probar encender el proxy y cargar una web https para probar q funcione el certificado
+6) En Burp en Proxy - Intercept , si esta en ON, podremos ir viendo los requests y responses, avanzando con el boton de Forward
+
+### Uso Básico
+1) Encender proxy
+2) Poner Intercept en Off , hasta que querramos empezar a interceptar
+3) Ir a la solapa TARGET y en Scope especificar la url, o con la opcion Avanzada elegir un regex
+4) Luego en Proxy, ir a Opciones, y ahi poner AND en las opciones de Intercept Client Request
+5) 
+
 
 

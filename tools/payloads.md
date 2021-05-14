@@ -108,3 +108,6 @@ Bypass Upload Tricky
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecure%20Files   
 
 
+OneListForAll  
+Rockyou for web fuzzing  (ffuf)  
+https://github.com/six2dez/OneListForAll  

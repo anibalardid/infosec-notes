@@ -156,6 +156,10 @@ https://hackingresources.com/web-application-penetration-testing-course/
 e-Learning del curso de EJPT  
 https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student  
 
+XSS RAT Notes  
+Demostration, methodology, vulnerabilities  
+https://github.com/heilla/SecurityTesting/tree/master/notes  
+
 
 ### Write-Ups  
 Recon Everything  
@@ -231,13 +235,22 @@ for h in $(cat hosts.txt); do curl -siL https://$h|sed -n -E "s/.*<.*(href|src|u
 assetfinder --subs-only dominio.com | httprobe | tee | -a salida.txt
 ```
 
-https://github.com/KingOfBugbounty/KingOfBugBountyTips
-
 Escaneo de dominios y subdominios
 
 ```bash
 cat all-domain-extensions.txt | sed 's/FUZZ/redbull/gi' | assetfinder --subs-only | httpx 
 ```
+
+Oneliner para buscar patrones en todos los objetos de un repositorio GIT (by @tomnomnom)  
+```bash
+{ find .git/objects/pack/ -name "*.idx"|while read i;do git show-index < "$i"|awk '{print $2}';done;find .git/objects/ -type f|grep -v '/pack/'|awk -F'/' '{print $(NF-1)$NF}'; }|while read o;do git cat-file -p $o;done|grep -E '<pattern>'  
+```
+
+
+https://github.com/KingOfBugbounty/KingOfBugBountyTips  
+
+https://github.com/twseptian/oneliner-bugbounty  
+
 
 
 ---
