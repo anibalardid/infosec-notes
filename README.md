@@ -160,6 +160,9 @@ XSS RAT Notes
 Demostration, methodology, vulnerabilities  
 https://github.com/heilla/SecurityTesting/tree/master/notes  
 
+Entendiendo reverse shell  
+https://www.netsparker.com/blog/web-security/understanding-reverse-shells/  
+
 
 ### Write-Ups  
 Recon Everything  

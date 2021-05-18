@@ -7,6 +7,7 @@ https://asciinema.org/
 
 
 Extensions Hack Tools  
+Extension para browsers con herramientas de pentesting  
 https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi   
 https://addons.mozilla.org/es/firefox/addon/hacktools/ 
 
@@ -69,14 +70,6 @@ CyberChef
 Utilidades de conversión  
 https://gchq.github.io/CyberChef/
 
-
-OneLiners para BugBounty  
-https://github.com/KingOfBugbounty/KingOfBugBountyTips  
-
-https://github.com/twseptian/oneliner-bugbounty  
-
-Oneliner para buscar patrones en todos los objetos de un repositorio GIT (by @tomnomnom)  
-{ find .git/objects/pack/ -name "*.idx"|while read i;do git show-index < "$i"|awk '{print $2}';done;find .git/objects/ -type f|grep -v '/pack/'|awk -F'/' '{print $(NF-1)$NF}'; }|while read o;do git cat-file -p $o;done|grep -E '<pattern>'  
 
 Recopilado de tools  
 https://start.me/p/m6XMmk/ethical-hacking
@@ -194,15 +187,35 @@ Spyse
 Recon de hosts, busca con diferentes sufijos , subdominios, tira también CVE 
 https://spyse.com/  
 
+
 JS tools  
 https://github.com/GerbenJavado/LinkFinder  
 https://github.com/m4ll0k/SecretFinder  
 https://github.com/Sh1Yo/x8  
 
 
+Bat  
+Un "cat" vitaminado  
+https://github.com/sharkdp/bat  
+
+
+Micro  
+Editor similar a nano, pero con features como highlight de código  
+https://micro-editor.github.io/  
+
+
 Mails Temporales  
 https://www.guerrillamail.com/  
 
+
+Magic Recon  
+MagicRecon is a powerful shell script to maximize the recon and data collection process of an objective and finding common vulnerabilities, all this saving the results obtained in an organized way in directories and with various formats.    
+https://github.com/robotshell/magicRecon  
+
+
+## Diccionarios  
+
+https://github.com/NullWin/DiccionarioArgentino  
 
 
 ## Tips  
