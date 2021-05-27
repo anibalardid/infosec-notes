@@ -6,7 +6,7 @@ https://www.exploit-db.com/
 
 Wprecon  
 A Vulnerability Recognition Tool In CMS WordPress  
-https://kalilinuxtutorials.com/wprecon/ 
+https://kalilinuxtutorials.com/wprecon/  
 
 
 Escaner de vulnerabilidades XSS  
@@ -35,13 +35,13 @@ Nuclei
 Buscador de vulns CVE 
 https://github.com/projectdiscovery/nuclei  
 
+
 Nuclei Templates   
 https://github.com/projectdiscovery/nuclei-templates/tree/master/cves/2020   
 
 
-
-
-
+CVE  
+Para buscar info sobre CVE, buscar en google "CVE xxxx github exploit"  
 
 
 

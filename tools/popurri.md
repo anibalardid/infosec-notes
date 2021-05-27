@@ -1,15 +1,26 @@
 # Varias cositas  
 
+## Extensiones  
+
+Hack Tools  
+Extension para browsers con herramientas de pentesting  
+https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi   
+https://addons.mozilla.org/es/firefox/addon/hacktools/ 
+
+
+Mejores extensiones de Pentesting en Firefox  
+Wappalyzer  
+https://addons.mozilla.org/es/firefox/addon/wappalyzer/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search  
+
+Penetration Testing Kit  
+https://addons.mozilla.org/es/firefox/addon/penetration-testing-kit/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search  
+
+
 ## Herramientas varias  
 
 Asciinema - grabar consola  
 https://asciinema.org/
 
-
-Extensions Hack Tools  
-Extension para browsers con herramientas de pentesting  
-https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi   
-https://addons.mozilla.org/es/firefox/addon/hacktools/ 
 
 
 VulnMap  
@@ -106,13 +117,12 @@ https://whw-tools.hahwul.com/
 Herramientas utiles para explotacion  
 Por ejemplo servicios online que quedan a la espera de request y podemos ver el contenido, headers, etc del request recibido  
 Alternativas a Burp Collaborator  
-https://webhook.site 
-https://requestcatcher.com 
-http://dnsbin.zhack.ca 
-https://ngrok.com 
+https://webhook.site  
+https://requestcatcher.com  
+http://dnsbin.zhack.ca  
+https://ngrok.com  
 http://interact.sh/  
 https://dnslog.cn   
-https://webhook.site  
 https://interact.projectdiscovery.io  
 https://pingb.in  
 https://swin.es  
@@ -140,7 +150,7 @@ Scripts para busquedas de logs, archivos de configuracion, emails, etc
 https://github.com/daffainfo/Bug-Bounty-Tools  
 
 
-All about bug bounty
+All about bug bounty  
 Payloads, Bypass, herramientas de recon, etc  
 https://github.com/daffainfo/AllAboutBugBounty  
 
@@ -211,6 +221,21 @@ https://www.guerrillamail.com/
 Magic Recon  
 MagicRecon is a powerful shell script to maximize the recon and data collection process of an objective and finding common vulnerabilities, all this saving the results obtained in an organized way in directories and with various formats.    
 https://github.com/robotshell/magicRecon  
+
+
+Xsshunter.com  
+Para probar xss y ver como llega el request  
+
+## Comandos y funciones Bash utiles  
+
+extractPorts  
+https://gist.github.com/anibalardid/5e05b6472feb3d31116729dc24e6d3e2  
+
+rmk  
+https://gist.github.com/anibalardid/b2d4025152d913e398fcef6830d89cad  
+
+mkt  
+https://gist.github.com/anibalardid/6bbd0a8fefb507b88bc511d41ecd91ba  
 
 
 ## Diccionarios  
@@ -351,6 +376,10 @@ assetfinder target.com | hakrawler | kxss
 4)  Revisar si la web tiene un manual, buscarlo con google dorks
 5)  Si usas Burp Suite Pro , puede arrojar falsos positivos, por lo cual, todo tiene q ser reproducible y demostrar un impacto.
 6)  
+
+### Encode 
+Para usar xss, se puede encodear el código como unicode. 
+
 
 ## Como usar Burp Suite
 

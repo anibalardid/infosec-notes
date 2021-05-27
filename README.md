@@ -254,6 +254,8 @@ https://github.com/KingOfBugbounty/KingOfBugBountyTips
 
 https://github.com/twseptian/oneliner-bugbounty  
 
+https://github.com/dwisiswant0/awesome-oneliner-bugbounty  
+
 
 
 ---
