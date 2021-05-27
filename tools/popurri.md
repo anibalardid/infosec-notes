@@ -2,25 +2,22 @@
 
 ## Extensiones  
 
-Hack Tools  
+### Hack Tools  
 Extension para browsers con herramientas de pentesting  
 https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi   
 https://addons.mozilla.org/es/firefox/addon/hacktools/ 
 
+### Wappalyzer  
+https://addons.mozilla.org/es/firefox/addon/wappalyzer/  
 
-Mejores extensiones de Pentesting en Firefox  
-Wappalyzer  
-https://addons.mozilla.org/es/firefox/addon/wappalyzer/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search  
-
-Penetration Testing Kit  
-https://addons.mozilla.org/es/firefox/addon/penetration-testing-kit/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search  
+### Penetration Testing Kit  
+https://addons.mozilla.org/es/firefox/addon/penetration-testing-kit/  
 
 
 ## Herramientas varias  
 
 Asciinema - grabar consola  
 https://asciinema.org/
-
 
 
 VulnMap  
@@ -225,6 +222,19 @@ https://github.com/robotshell/magicRecon
 
 Xsshunter.com  
 Para probar xss y ver como llega el request  
+
+QuickXSS  
+Automatización para buscar XSS usando diferentes herramientas(Waybackurls, GF, GF Patterns y Dalfox)  
+https://github.com/theinfosecguy/QuickXSS  
+
+WordPress Brute Force  
+Super rápido, fuerza bruta para login en WordPress  
+https://kalilinuxtutorials.com/wordpress-brute-force/  
+
+RECON  
+All in One Recon . Recon todo en uno, usando varias herramientas.  
+https://github.com/dirsoooo/Recon  
+
 
 ## Comandos y funciones Bash utiles  
 

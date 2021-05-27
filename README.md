@@ -163,6 +163,9 @@ https://github.com/heilla/SecurityTesting/tree/master/notes
 Entendiendo reverse shell  
 https://www.netsparker.com/blog/web-security/understanding-reverse-shells/  
 
+Breve introducción e información sobre algunas vulnerabilidades  
+https://medium.com/swlh/mastering-the-skills-of-bug-bounty-2201eb6a9f4  
+
 
 ### Write-Ups  
 Recon Everything  
@@ -212,7 +215,7 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 ### PortSwigger XSS chear sheat
 https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
-### Checklist for pentesting web applications  
+### Checklist de que cosas deberían revisarse en pentesting web  (by Alan Levi - @SoyElMago) 
 https://github.com/alanbriangh/Magic-CheckList-for-Web-Applications/blob/master/Magic%20CheckList%20for%20Web%20Applications.md  
 https://github.com/alanbriangh/Magic-CheckList-for-Web-Applications/blob/master/Magic-CheckList-for-Web-Applications-EN.MD  
 
@@ -221,6 +224,12 @@ http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 
 ### SQL Injection  
 http://pentestmonkey.net/category/cheat-sheet/sql-injection  
+
+
+### API Checklist  
+https://twitter.com/HolyBugx/status/1396758673439985667/photo/1  
+https://twitter.com/HolyBugx/status/1396758673439985667/photo/2  
+
 
 
 ---
