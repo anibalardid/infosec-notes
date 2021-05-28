@@ -223,13 +223,16 @@ https://github.com/robotshell/magicRecon
 Xsshunter.com  
 Para probar xss y ver como llega el request  
 
+
 QuickXSS  
 Automatización para buscar XSS usando diferentes herramientas(Waybackurls, GF, GF Patterns y Dalfox)  
 https://github.com/theinfosecguy/QuickXSS  
 
+
 WordPress Brute Force  
 Super rápido, fuerza bruta para login en WordPress  
 https://kalilinuxtutorials.com/wordpress-brute-force/  
+
 
 RECON  
 All in One Recon . Recon todo en uno, usando varias herramientas.  

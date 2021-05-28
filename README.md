@@ -166,6 +166,7 @@ https://www.netsparker.com/blog/web-security/understanding-reverse-shells/
 Breve introducción e información sobre algunas vulnerabilidades  
 https://medium.com/swlh/mastering-the-skills-of-bug-bounty-2201eb6a9f4  
 
+---  
 
 ### Write-Ups  
 Recon Everything  
@@ -187,7 +188,36 @@ https://github.com/devanshbatham/Awesome-Bugbounty-Writeups
 AllPocsFromHackerOne  
 https://github.com/bminossi/AllVideoPocsFromHackerOne  
 
+---  
 
+### Canales de Youtube y Twitch recomendados sobre seguridad en Español
+Acá quiero aclarar que los canales de twitch y youtube normalmente no son lo mismo.  
+En el vivo de twitch muchas veces hay cosas que luego no se pasan a Youtube, si es que lo pasan a Youtube ...  
+Y en Youtube muchas veces es contenido pre-grabado que no hubo vivo en Twitch.  
+
+#### Twitch
+
+https://www.twitch.tv/soyelmago  
+https://www.twitch.tv/s4vitaar  
+https://www.twitch.tv/achirou  
+https://www.twitch.tv/thegoodhackertv  
+https://www.twitch.tv/securepodcast  
+https://www.twitch.tv/ekoparty  
+https://www.twitch.tv/arl_rose  
+https://www.twitch.tv/dimineko  
+
+#### YouTube
+
+https://www.youtube.com/c/AlanLevy-ElMago  
+https://youtube.com/s4vitar  
+https://www.youtube.com/c/JulioUre%C3%B1a  
+https://www.youtube.com/c/AlvaroChirou  
+https://www.youtube.com/c/hackwise  
+
+---  
+
+### Lista de Twitter sobre seguridad y hackers  
+https://twitter.com/i/lists/1247180397018058761  
 
 
 ---
