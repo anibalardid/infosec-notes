@@ -6,7 +6,10 @@
 Este documento va sobre notas acerca de seguridad en aplicaciones web, pentesting y bug bounty.
 El documento es en Español, dado que hay poca info en nuestro idioma.
 
->Aclaraciones: El objetivo de este documento es tener ordenadas notas para poder testear vulnerabilidades en aplicaciones webs. NO es sobre hackeo malicioso. Es para poder testear aplicaciones propias o participar de programas de Bug Bounty.
+>Aclaraciones: El objetivo de este documento es tener ordenadas notas para poder testear vulnerabilidades en aplicaciones webs.  
+NO es sobre hackeo malicioso. Es para poder testear aplicaciones propias o participar de programas de Bug Bounty.  
+El documento se irá actualizando de forma constante. Agregando y mejorando todo lo que voy aprendiendo , y mejorando para que sirva de guía.  
+  
 
 >Colaboraciones: En caso de querer colaborar se pueden enviar pull/merge request en este mismo repositorio.
 
@@ -27,8 +30,7 @@ Algunas frases o palabras pueden confundir al principio. Por lo cual acá dejo a
 - Oneliner: Se refiere a usar una sola linea de comando para obtener un X resultado. Muchas veces son combinaciones de varios comandos en una sola linea concatenados
 - OSINT: Inteligencia de Fuentes Abiertas. Es una metodología multifactorial de recolección, análisis y toma de decisiones sobre datos de fuentes disponibles de forma pública para ser utilizados en un contexto de inteligencia
 
-
----
+--- 
 
 
 ## :microscope: Laboratorios
@@ -102,123 +104,7 @@ https://www.exploit-db.com/
 
 ## :mortar_board: Cursos, Tutoriales, Academias
 
-PortSwigger Academy  
-https://portswigger.net/web-security/all-materials
-
-HacksPlaining  
-Security Training for Developers  
-https://www.hacksplaining.com/  
-
-HackTheBox Academy  
-https://academy.hackthebox.eu/
-
-TryHackMe Hacktivities  
-https://tryhackme.com/hacktivities
-
-Bug Bounty Hunting Methodology v2 - Jason Haddix from Bugcrowd's LevelUp 2017  
-https://www.youtube.com/watch?v=C4ZHAdI8o1w
-
-The Bug Hunter's Methodology v4.0 - Recon Edition by @jhaddix #NahamCon2020!  
-https://www.youtube.com/watch?v=p4JgIu1mceI   
-
-LevelUp 0x02 - Bug Bounty Hunter Methodology v3  
-https://www.youtube.com/watch?v=Qw1nNPiH_Go
-
-Curso Introducción al pentesting en español (lista de youtube)  
-https://www.youtube.com/watch?v=v8E0_Swe89c&list=PLXm1FM6zsxpBxKtPzT-pQVKoUFXZkuqkh  
-
-Bug Bounty Roadmap  
-The Bug Hunter’s Methodology v4 Roadmap  
-https://github.com/1ndianl33t/Bug-Bounty-Roadmaps 
-
-Backtrack Academy  
-https://backtrackacademy.com/
-
-Guía básica de NMAP  
-https://hackear.com.ar/guia-basica-nmap/
-
-Guía de uso básico de Burp Suite (ingles)  
-https://infosecwriteups.com/basic-burp-suite-usage-c23cf65152f2  
-
-Curso de S4vitar  
-https://www.mastermind.ac/courses/introduccion-al-hacking-etico  
-
-Preparación para el OSCP (by s4vitar)  
-https://s4vitar.github.io/oscp-preparacion  
-
-Recon guide pentesters and bug bounty  
-https://www.offensity.com/de/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/  
-
-Web Application Penetration Testing Course  
-(youtube links)  
-https://hackingresources.com/web-application-penetration-testing-course/  
-
-e-Learning del curso de EJPT  
-https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student  
-
-XSS RAT Notes  
-Demostration, methodology, vulnerabilities  
-https://github.com/heilla/SecurityTesting/tree/master/notes  
-
-Entendiendo reverse shell  
-https://www.netsparker.com/blog/web-security/understanding-reverse-shells/  
-
-Breve introducción e información sobre algunas vulnerabilidades  
-https://medium.com/swlh/mastering-the-skills-of-bug-bounty-2201eb6a9f4  
-
----  
-
-### Write-Ups  
-Recon Everything  
-https://infosecwriteups.com/recon-everything-48aafbb8987  
-
-Bug Bounty Writeups  
-https://pentester.land/list-of-bug-bounty-writeups.html  
-
-Cómo usar burp suite  
-https://infosecwriteups.com/basic-burp-suite-usage-c23cf65152f2  
-
-Completo write-up en tryhackme  
-https://infosecwriteups.com/team-tryhackme-writeup-f36f26289b44  
-
-Awesome-Bugbounty-Writeups  
-Lista curada de writeups de bug bounty, inspirada en https://github.com/ngalongc/bug-bounty-reference    
-https://github.com/devanshbatham/Awesome-Bugbounty-Writeups   
-
-AllPocsFromHackerOne  
-https://github.com/bminossi/AllVideoPocsFromHackerOne  
-
----  
-
-### Canales de Youtube y Twitch recomendados sobre seguridad en Español
-Acá quiero aclarar que los canales de twitch y youtube normalmente no son lo mismo.  
-En el vivo de twitch muchas veces hay cosas que luego no se pasan a Youtube, si es que lo pasan a Youtube ...  
-Y en Youtube muchas veces es contenido pre-grabado que no hubo vivo en Twitch.  
-
-#### Twitch
-
-https://www.twitch.tv/soyelmago  
-https://www.twitch.tv/s4vitaar  
-https://www.twitch.tv/achirou  
-https://www.twitch.tv/thegoodhackertv  
-https://www.twitch.tv/securepodcast  
-https://www.twitch.tv/ekoparty  
-https://www.twitch.tv/arl_rose  
-https://www.twitch.tv/dimineko  
-
-#### YouTube
-
-https://www.youtube.com/c/AlanLevy-ElMago  
-https://youtube.com/s4vitar  
-https://www.youtube.com/c/JulioUre%C3%B1a  
-https://www.youtube.com/c/AlvaroChirou  
-https://www.youtube.com/c/hackwise  
-
----  
-
-### Lista de Twitter sobre seguridad y hackers  
-https://twitter.com/i/lists/1247180397018058761  
-
+[Clic acá para abrir la info](./tools/training.md)
 
 ---
 
