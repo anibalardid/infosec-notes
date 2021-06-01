@@ -124,6 +124,19 @@ https://github.com/devanshbatham/Awesome-Bugbounty-Writeups
 AllPocsFromHackerOne  
 https://github.com/bminossi/AllVideoPocsFromHackerOne  
 
+Sobre vulnerabilidades en reseteo de contraseñas  
+https://infosecwriteups.com/all-about-password-reset-vulnerabilities-3bba86ffedc7  
+
+Vulnerabilidades en cadena  
+https://master-sec.medium.com/the-beauty-of-chaining-client-side-bugs-759e1091eabf  
+
+Como saltear CSP escondiendo JavaScript en una imagen PNG  
+https://www.secjuice.com/hiding-javascript-in-png-csp-bypass/  
+
+Saltear CSP  
+https://brutelogic.com.br/blog/csp-bypass-guidelines/  
+
+
 
 --- 
 

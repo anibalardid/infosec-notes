@@ -390,6 +390,37 @@ assetfinder target.com | hakrawler | kxss
 5)  Si usas Burp Suite Pro , puede arrojar falsos positivos, por lo cual, todo tiene q ser reproducible y demostrar un impacto.
 6)  
 
+--- 
+
+### Broken Access Control
+Tips de El Mago
+
+ejemplo de writeup    
+https://galnagli.com/Samsung_Exposure/  
+https://notifybugme.medium.com/unauthorized-access-to-admin-setpassword-page-by-bypass-403-forbidden-f10bbb92ab35  
+
+### Tips  
+crear 2 cuentas , comun y otra para admin (usando + o . , o mails temporales)  
+usar match and replace de burp suite  
+reemplazar false x true y true x false  (proxy, options, match and replace, como response body)  
+leer los archivos js  
+probar cambiar verbo/metodos  
+
+Extension multi account container  
+
+se le puede dar acceso a la cuenta desde un usuario a otro  
+y vemos q hay opciones q no se ven  
+en el burp, en proxy history, boton derecho - repeater  
+hacemos lo mismo con un request del otro usuario   
+probamos cambiar los authorization headers entre los requests  
+e ir probando 1 x 1 varios endpoints  
+
+Se puede automatizar, instalando desde BApp Store  : Authorize   
+
+robar x xss sesion de jwt de localstorage   
+https://medium.com/redteam/stealing-jwts-in-localstorage-via-xss-6048d91378a0   
+
+
 ### Encode 
 Para usar xss, se puede encodear el código como unicode. 
 

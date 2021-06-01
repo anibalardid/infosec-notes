@@ -1,7 +1,5 @@
 # Payloads
-Listado de recursos con payloads  
-
-Payloads and examples
+Listado de recursos con payloads y ejemplos  
 
 SecLists
 Listado de multiples listas de todo tipo, usuarios, contraseñas, urls, fuzzing, payloads, etc.  
@@ -21,6 +19,8 @@ CSRFER
 Generador de payloads csrf  
 https://github.com/luisfontes19/CSRFER
 
+
+https://github.com/RenwaX23/XSS-Payloads  
 
 https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md 
 
