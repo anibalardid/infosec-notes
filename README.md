@@ -209,19 +209,6 @@ https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf
 ### HackerOne Top Reports  
 https://github.com/reddelexc/hackerone-reports  
 
----
-
-
-## :wrench: Herramientas  
-
-* [Recon](tools/recon.md)  
-
-* [Vulnerabilidades](tools/vulnerabilities.md)  
-
-* [Popurri Varios](tools/popurri.md)  
-
-* [Payloads](tools/payloads.md)  
-
 
 ---
 
@@ -250,7 +237,7 @@ https://github.com/reddelexc/hackerone-reports
 
 ## :checkered_flag: Certificaciones
 
-eJPT  
+eJPT - Junior PenTesting  
 (u$d 200)  
 (Sin Active Directory)  
 https://elearnsecurity.com/product/ejpt-certification/  
@@ -258,9 +245,27 @@ Cheat Sheet
 https://githubmemory.com/repo/tejasanerao/eJPT-Cheatsheet  
 http://alexchaoyihuang.blogspot.com/2020/04/nmap-cheat-sheet.html  
 
-OSCP  
+OSCP   - Offensive Security Certified Professional  
 (€ 1000)  
 https://www.offensive-security.com/pwk-oscp/  
+https://www.offensive-security.com/courses-and-certifications/  
 
 
+---
+
+
+## :wrench: Herramientas y Notas separadas  
+Para que esté todo más ordenado hice archivos y secciones separadas:  
+
+* [Recon](tools/recon.md)  
+
+* [Vulnerabilidades](tools/vulnerabilities.md)  
+
+* [Popurri Varios](tools/popurri.md)  
+
+* [Payloads](tools/payloads.md)  
+
+* [HackTheBox](tools/htb.md)  
+
+* [Metodologías](tools/methodologies.md)  
 

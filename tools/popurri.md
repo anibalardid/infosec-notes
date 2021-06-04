@@ -223,6 +223,9 @@ https://github.com/robotshell/magicRecon
 Xsshunter.com  
 Para probar xss y ver como llega el request  
 
+GTFOBins  
+https://gtfobins.github.io/  
+GTFOBins es una lista seleccionada de binarios de Unix que se pueden utilizar para eludir las restricciones de seguridad locales en sistemas mal configurados.   
 
 QuickXSS  
 Automatización para buscar XSS usando diferentes herramientas(Waybackurls, GF, GF Patterns y Dalfox)  
@@ -328,67 +331,61 @@ https://github.com/Va5c0/Steghide-Brute-Force-Tool
 https://github.com/Paradoxis/StegCracker  
 
 
-### Estrategias/Métodologías de Bug Bounty
+### Encodear (encoding) de payloads para pruebas  
+CyberChef  
+https://gchq.github.io/CyberChef/  
 
-- Opción 1  
-  amass->httpx->gau->kxss  
-https://github.com/OWASP/Amass  
-https://github.com/projectdiscovery/httpx  
-https://github.com/lc/gau  
-https://github.com/tomnomnom/hacks/tree/master/kxss  
-https://github.com/Emoe/kxss  
-
-GF Patterns:  
-```bash
-git clone https://github.com/1ndianl33t/Gf-Patterns
-mkdir .gf
-mv ~/Gf-Patterns/*.json ~/.gf 
+### Buscar directorios y subdominios con Burp Suite Pro
+Extensiones interesantes a instalar en Burp Suite:  
+```
+XSS Validator
+Software Vulnerability Scanner
+Replicator
+NoSQLi Scanner
+JavaScript Security
+Flow
+Error Message Checks
+CSRF Scanner
+CMS Scanner
+Burp Bounty
+Autowasp
 ```
 
+1- Abrir proxy y cargar sitio  
+2- Ir a Target - Scope -> cambiar a modo avanzado y escribir solo una parte de la url, por ejemplo "hilton" , y luego poner NO  
+3- Ir a Sitemap, tocar en la barra de Filter, y tildar "show only in scope items"  
+4- Señalar todos los dominios, boton derecho, Scan  
+5- Elegir opcion "Crawl", luego en SCAN CONFIGURATION -> select from library , agregar "crawl strategy faster" y "never stop..."  
+6- En Resource pool, poner un maximo de request , por ej 50, que grabe , y darle a OK   
+7- En Dashboard se puede ver el progreso de escaneo.  
+8- En la solapa Flow tambien se puede ver el progreso, si no se tiene se instala de Extended -> BApp Store  
 
-Pasos:  
-```bash
-amass enum -passive -d hilton.com -noalts -o hosts.txt  
-#cat hosts.txt | httpx   
-httpx -l hosts.txt -silent > httpx.txt
-# subfinder -d hackerone.com | httpx -title -tech-detect -status-code -title -follow-redirects
+
+### Pasos The Bug Hunter's Methodology Full 2-hour Training by Jason Haddix  
+
+- Búsqueda subdominios
+amass, subfinder  
+
+- Github Dorks
+GitDorker: 
+https://obheda12.medium.com/gitdorker-a-new-tool-for-manual-github-dorking-and-easy-bug-bounty-wins-92a0a0a6b8d5  
+https://github.com/obheda12/GitDorker  
+Hunter.sh:  
+https://gist.github.com/anibalardid/9787094b9c642eadd217c7b6dd6dbfac  
+  
+Github Search :  
+https://github.com/gwen001/github-search  
+
+- Verificar subdominios  y dominios activos
+httprobe:  
+https://github.com/tomnomnom/httprobe  
 
 
-```  
 
-- Opción 2
-https://www.infosecmatter.com/bug-bounty-tips-8-oct-14/#7_simple_reflected_xss_scenario  
 
-Run  
-subfinder -d target.com | httprobe -c 100 > target.txt  
-Run  
-cat target.txt | waybackurls | gf xss | kxss  
-Got a URL which had all the special characters unfiltered and the parameter was callback=  
+#### Checklist Methodology
+https://gist.github.com/jhaddix/6b777fb004768b388fefadf9175982ab#file-wahh_task_checklist-md  
 
-- Opción 3
-https://twitter.com/nullenc0de/status/1236047455831101446  
-
-Methodology:  
-1) Identify bug bounty  
-2) Enumerate sub domains (I use amass, subfinder)  
-3) Feed those to httpprobe  
-4) Feed that list to a crawling tool  (hakcrawler)  
-5) Feed that list to kxss  
-6) grep output for " (easiest win)  
-
-assetfinder target.com | hakrawler | kxss 
-
-- Opción 4 
-1) Buscar si hay una página de registro y login. Probar registrarse o loguearse, incluyendo probar:
-   1)  XSS
-   2)  Probar diferentes vectores de ataques en cualquier input q se prueda probar
-2)  Ingresar o registrarse como un usuario normal
-    1)  monitorizando todo con Burp suite o similar
-    2)  tomar nota , haciendo un mapa mental
-3)  Prestar atencion a permisos, diferentes secciones de la aplicación, comunicacion con otras aplicaciones, etc
-4)  Revisar si la web tiene un manual, buscarlo con google dorks
-5)  Si usas Burp Suite Pro , puede arrojar falsos positivos, por lo cual, todo tiene q ser reproducible y demostrar un impacto.
-6)  
 
 --- 
 

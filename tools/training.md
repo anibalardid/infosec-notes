@@ -136,6 +136,13 @@ https://www.secjuice.com/hiding-javascript-in-png-csp-bypass/
 Saltear CSP  
 https://brutelogic.com.br/blog/csp-bypass-guidelines/  
 
+Escalar XSS a Account Takeover  
+https://theamanrawat.github.io/2021/02/01/xss-to-account-takeover-payu.html  
+
+## Write-Ups Ippsec
+Writeups en video resueltas por IppSec
+https://ippsec.rocks/?#
+
 
 
 --- 
