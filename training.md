@@ -61,7 +61,10 @@ Breve introducción e información sobre algunas vulnerabilidades
 https://medium.com/swlh/mastering-the-skills-of-bug-bounty-2201eb6a9f4  
 
 La Guía del XSS (Cross Site Scripting) Bug Bounty & Pentesting  
-https://www.youtube.com/watch?v=B2bVviEts1M  
+https://www.youtube.com/watch?v=B2bVviEts1M   
+
+Uso de la herramienta AMASS  
+https://blog.intigriti.com/2021/06/08/hacker-tools-amass-hunting-for-subdomains/  
 
 
 --- 

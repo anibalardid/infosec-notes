@@ -111,7 +111,7 @@ https://www.exploit-db.com/
 
 ## :mortar_board: Cursos, Tutoriales, Academias
 
-[Clic acá para abrir la info](./tools/training.md)
+[Clic acá para abrir la info](./training.md)
 
 ---
 
@@ -260,15 +260,17 @@ https://www.offensive-security.com/courses-and-certifications/
 ## :wrench: Herramientas y Notas separadas  
 Para que esté todo más ordenado hice archivos y secciones separadas:  
 
-* [Recon](tools/recon.md)  
+* [Recon](recon.md)  
 
-* [Vulnerabilidades](tools/vulnerabilities.md)  
+* [Vulnerabilidades](vulnerabilities.md)  
+   
+* [Herramientas](tools.md)  
 
-* [Popurri Varios](tools/popurri.md)  
+* [Popurri Varios](popurri.md)  
 
-* [Payloads](tools/payloads.md)  
+* [Payloads](payloads.md)  
 
-* [HackTheBox](tools/htb.md)  
+* [HackTheBox](htb.md)  
 
-* [Metodologías](tools/methodologies.md)  
+* [Metodologías](methodologies.md)  
 
