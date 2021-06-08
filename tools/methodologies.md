@@ -13,7 +13,8 @@ https://www.bugbountyhunter.com/methodology/zseanos-methodology.pdf
 
 ## Diferentes Estrategias/Métodologías de Bug Bounty
 
-### Opción 1  
+**Opción 1**  
+
 amass->httpx->gau->kxss  
 https://github.com/OWASP/Amass  
 https://github.com/projectdiscovery/httpx  
@@ -36,7 +37,8 @@ httpx -l hosts.txt -silent > httpx.txt
 # subfinder -d hackerone.com | httpx -title -tech-detect -status-code -title -follow-redirects
 ```  
 
-### Opción 2
+**Opción 2**  
+
 https://www.infosecmatter.com/bug-bounty-tips-8-oct-14/#7_simple_reflected_xss_scenario  
 
 Run  
@@ -45,7 +47,8 @@ Run
 cat target.txt | waybackurls | gf xss | kxss  
 Got a URL which had all the special characters unfiltered and the parameter was callback=  
 
-### Opción 3
+**Opción 3**  
+
 https://twitter.com/nullenc0de/status/1236047455831101446  
 
 Methodology:  
@@ -58,7 +61,8 @@ Methodology:
 
 assetfinder target.com | hakrawler | kxss  
   
-### Opción 4 
+**Opción 4**  
+
 1) Buscar si hay una página de registro y login. Probar registrarse o loguearse, incluyendo probar:  
    1)  XSS
    2)  Probar diferentes vectores de ataques en cualquier input q se prueda probar
@@ -71,18 +75,24 @@ assetfinder target.com | hakrawler | kxss
 6)  
 
 
-### Curso Become Ethical Hacker in 15 Hours - 2021  
+**Pasos de S4vitar para pentesting**   
+
+1)  
+2)   
+
+
+## Curso Become Ethical Hacker in 15 Hours - 2021  
 https://www.udemy.com/course/become-ethical-hacker-in-15-hours  
 
-#### Recon  
+### Recon  
 
-##### Passive Scan  
+### Passive Scan  
 Harvester  
 Recon-NG  
 ARP : `arp -a` , `arp -an`  
 Wireshark (captura tráfico de la red)  
 
-##### Active Scan  
+### Active Scan  
 hping : `hping3 --scan '-500 -S ip_or_host`  
 nmap : 
 ```
@@ -137,26 +147,11 @@ Bypass security in nmap scans:
 --badsum
 ```
 
-##### Vulnerability Scan y Exploits  
+### Vulnerability Scan y Exploits  
 Nessus  
 Exploit Databases - https://www.exploit-db.com/  
 
-##### Explotation Framework
-Metasploit  
-In Kali Linux : `/usr/share/metasploit-framework/`  
+#### Explotation Framework
 
-```
-eervice postgresql start
-msfdb init
-msfconsole -q
-msf > use auxiliary/scanner/portscan/tcp
-show options
-set RHOST 10.10.2.14
-set PORTS 20-500
-run
-```
-
-
-
-
+[Metasploit](metasploit.md)
 

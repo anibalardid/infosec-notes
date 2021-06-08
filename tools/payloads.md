@@ -15,6 +15,10 @@ Payload de listado de credenciales por defecto segun el Fabricante/Vendor
 https://github.com/ihebski/DefaultCreds-cheat-sheet/blob/main/DefaultCreds-Cheat-Sheet.csv
 
 
+Cheatsheet para evadir filtros de XSS  
+https://owasp.org/www-community/xss-filter-evasion-cheatsheet  
+
+
 CSRFER  
 Generador de payloads csrf  
 https://github.com/luisfontes19/CSRFER
