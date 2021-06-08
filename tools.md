@@ -246,8 +246,25 @@ https://github.com/dirsoooo/Recon
 
 ## Herramientas para crackeo de contraseñas  
 Hydra  
+Puede usarse con varios protocolos y sistemas.  
+https://github.com/vanhauser-thc/thc-hydra  
+
 Cain & Abel  
+Herramienta para recupero de contraseñas en sistemas Windows.  
+https://github.com/xchwarze/Cain  
+
 Hashcat  
+Es la herramienta mas rápida para recupero de contraseñas. Trabaja en linux, windows, y mac.    
+https://github.com/hashcat/hashcat  
+
 Ophcrack  
+Crackeador de contraseñas para Windows.  
+https://github.com/luisgg/ophcrack  
+
 John the Ripper  
+Herramienta open source para auditorias y recuperación de contraseñas.  
+https://www.openwall.com/john/  
+
+
+
 

@@ -1,5 +1,26 @@
 # Capacitación
 
+## Apuntes de cursos realizados  
+
+[Aprenda Hacking Web y Pentesting](https://docs.google.com/document/d/10o9liBmBNCVwSOPDAdBL9mNI2oumCjHWNnqMQoZpf54/edit?usp=sharing)  
+
+[Bug Bounty Hunting and Web Application Hacking](https://docs.google.com/document/d/1ucBITVKojczWS2F1zwDVXTRy5ZW90oFKPswjFn1b7Q4/edit?usp=sharing)  
+
+[Getting Started with OWASP Zed Attack Proxy (ZAP) for Web Application Penetration Testing](https://docs.google.com/document/d/1F8Vy4ecEP8SULywGtQZKOkKAfcMj5r1WEjdvxhf4Z78/edit?usp=sharing)  
+
+[Testing Applications for CompTIA PenTest+](https://docs.google.com/document/d/1hyjcYorH_drz4doIle9Idnk4J3hGd9Af63CNK4zcTjU/edit?usp=sharing)  
+
+[AngularJS Security Fundamentals](https://docs.google.com/document/d/1m2ptf8fEnQW5MdRGMIcq1wppmnDWTHQHdj2issKMdgI/edit?usp=sharing)  
+
+[Web Application Penetration Testing: Insecure Error Handling](https://docs.google.com/document/d/1VnrjOzSuWuoI_Jqmztp4bxfEcVkDmCHhgTthCuR9MZo/edit?usp=sharing)  
+
+[Web App Penetration Testing: Input Validation](https://docs.google.com/document/d/1yR3NaNLKOBPHKP-CrFXvnCEJvCbGr6PQqqq0b1ins_A/edit?usp=sharing)  
+
+[Web App Hacking: Cross-Site Request Forgery (CSRF) ](https://docs.google.com/document/d/1v8m8h1I-tlH7vzCoJ1y41ZSMwP23J8YAn2YJ23P1Jog/edit?usp=sharing)  
+
+
+---  
+
 ## Academias
 
 PortSwigger Academy  
@@ -24,7 +45,6 @@ https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b
 
 
 --- 
-
 
 ## Cursos y Tutoriales
 
@@ -67,8 +87,25 @@ Uso de la herramienta AMASS
 https://blog.intigriti.com/2021/06/08/hacker-tools-amass-hunting-for-subdomains/  
 
 
---- 
+---  
 
+## Certificaciones
+
+eJPT - Junior PenTesting  
+(u$d 200)  
+(Sin Active Directory)  
+https://elearnsecurity.com/product/ejpt-certification/  
+Cheat Sheet  
+https://githubmemory.com/repo/tejasanerao/eJPT-Cheatsheet  
+http://alexchaoyihuang.blogspot.com/2020/04/nmap-cheat-sheet.html  
+
+OSCP   - Offensive Security Certified Professional  
+(€ 1000)  
+https://www.offensive-security.com/pwk-oscp/  
+https://www.offensive-security.com/courses-and-certifications/  
+
+
+--- 
 
 ## Metodologías
 
@@ -88,8 +125,8 @@ https://www.youtube.com/watch?v=Qw1nNPiH_Go
 XSS Rat's methodology  
 https://github.com/heilla/SecurityTesting/blob/master/notes/Rat's%20methodology%20e728e0cffd8d429e8f9a1317b05feadf.md  
 
---- 
 
+--- 
 
 ## Introducción al Bug Bounty
 
@@ -106,8 +143,7 @@ Bug Bounty Experiencess (Eduardo Zamorano) https://www.youtube.com/watch?v=1Kgln
 Que es #BugBounty y como empezar a #CazarVulnerabilidades (Alan Levy)  https://www.youtube.com/watch?v=zJ1zZiIKNIw  
 
 
---- 
-
+---  
 
 ## Write-Ups  
 
@@ -144,26 +180,24 @@ https://brutelogic.com.br/blog/csp-bypass-guidelines/
 
 Escalar XSS a Account Takeover  
 https://theamanrawat.github.io/2021/02/01/xss-to-account-takeover-payu.html  
-
+  
+  
 ## Write-Ups Ippsec
 Writeups en video resueltas por IppSec
 https://ippsec.rocks/?#
 
 
-
 --- 
 
+## Canales de Youtube y Twitch  
+Recomendados sobre seguridad en Español.  
 
-# Canales de Youtube y Twitch recomendados sobre seguridad en Español
-Acá quiero aclarar que los canales de twitch y youtube normalmente no son lo mismo.  
-En el vivo de twitch muchas veces hay cosas que luego no se pasan a Youtube, si es que lo pasan a Youtube ...  
-Y en Youtube muchas veces es contenido pre-grabado que no hubo vivo en Twitch.  
-
-
---- 
+Acá quiero aclarar que el contenido en los canales de Ttwitch y Youtube normalmente no son lo mismo, aunque sean de la misma persona.  
+En el vivo de Twitch muchas veces hay cosas que luego no se pasan a Youtube, si es que lo pasan a Youtube ...  
+Y en Youtube muchas veces es contenido pre-grabado que no tuvo un vivo en Twitch.  
 
 
-# Twitch
+### Twitch
 
 https://www.twitch.tv/soyelmago  
 https://www.twitch.tv/s4vitaar  
@@ -175,10 +209,7 @@ https://www.twitch.tv/arl_rose
 https://www.twitch.tv/dimineko  
 
 
---- 
-
-
-# YouTube
+### YouTube
 
 El Mago  https://www.youtube.com/c/AlanLevy-ElMago  
 S4vitar  https://youtube.com/s4vitar  
@@ -192,7 +223,7 @@ Hackear  https://www.youtube.com/channel/UCbA9L1AhdzoTN1FWuQCTn9Q
 
 --- 
 
-
 # Mi lista de Twitter sobre seguridad y hackers  
 https://twitter.com/i/lists/1247180397018058761  
+
 

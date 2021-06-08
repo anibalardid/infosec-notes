@@ -37,6 +37,8 @@ httpx -l hosts.txt -silent > httpx.txt
 # subfinder -d hackerone.com | httpx -title -tech-detect -status-code -title -follow-redirects
 ```  
 
+---  
+
 **Opción 2**  
 
 https://www.infosecmatter.com/bug-bounty-tips-8-oct-14/#7_simple_reflected_xss_scenario  
@@ -46,6 +48,9 @@ subfinder -d target.com | httprobe -c 100 > target.txt
 Run  
 cat target.txt | waybackurls | gf xss | kxss  
 Got a URL which had all the special characters unfiltered and the parameter was callback=  
+
+
+---  
 
 **Opción 3**  
 
@@ -60,7 +65,10 @@ Methodology:
 6) grep output for " (easiest win)  
 
 assetfinder target.com | hakrawler | kxss  
-  
+
+
+---  
+
 **Opción 4**  
 
 1) Buscar si hay una página de registro y login. Probar registrarse o loguearse, incluyendo probar:  
@@ -75,14 +83,20 @@ assetfinder target.com | hakrawler | kxss
 6)  
 
 
+--- 
+
 **Pasos de S4vitar para pentesting**   
 
 1)  
 2)   
 
 
+---  
+
 ## Curso Become Ethical Hacker in 15 Hours - 2021  
 https://www.udemy.com/course/become-ethical-hacker-in-15-hours  
+
+Toma como base la utilización de Kali Linux.  
 
 ### Recon  
 
@@ -154,4 +168,90 @@ Exploit Databases - https://www.exploit-db.com/
 #### Explotation Framework
 
 [Metasploit](metasploit.md)
+
+### Web Hacking  
+
+- Extraer información del dominio, usar `whois`  
+
+```
+whois google.com
+```
+
+- Identificar host y subdominios, usando `fierce`, `theharvester`  
+
+```
+fierce -dns google.com -threads 10 -file /tmp/info.txt
+
+theharvester -d google.com -b bing -l 500 -f /tmp/info.html
+```
+
+- Detectar aplicaciones en el mismo servicio  
+
+Recomienda hacerlo manualmente esta parte.  
+
+- Descubrir puertos y servicios  
+
+Usando nmap.  
+Mas arriba en la seccion Active Scan hay varios ejemplos.  
+
+- Analizar tecnología y arquitectura  
+
+Whatweb  
+```
+whatweb -a 3 http://192.168.204.130/bWAPP/
+```
+
+Burp Suite  
+```
+Interceptar tráfico y mirar la solapa Headers.  
+Navegar manualmente la página interceptando con burp.  
+Luego mirar la solapa Target - Sitemap.  
+```
+
+Dirbuster  
+```
+dirbuster
+``` 
+
+- Google Hacking  
+
+A través de Google se puede obtener mucha información de los objetivos.  
+
+```
+site:nytimes.com -site:www.nytimes.com
+(site:nytimes.com -site:www.nytimes.com) AND (inurl:login or inurl:singup)
+inurl:"phpmyadmin/index.php"
+intitle:SQLLiteManager inurl:/sqllite/
+```
+Mas ejemplos:  
+https://www.exploit-db.com/google-hacking-database  
+
+
+- Listados de contraseñas  
+
+Con crunch se puede generar listados de contraseñas.  
+
+```
+crunch
+crunch 4 4 aB1.
+man crunch
+cat /usr/share/crunch/charset.lst
+crunch 8 8 -f /usr/share/crunch/charset.lst lalpha
+crunch 8 8 "aB1. \,"
+crunch 8 8 "aB1. \," -o wordlist
+```
+
+- Atacar logins inseguros
+
+```
+Abrir Burp Suite,   
+Ir a la solapa Intruder,  
+Luego a Positions, poner clear, luego seleccionar primero el valor del parametro de usuario y poner Add y luego el de password y tambien poner Add,  
+En Attack Type seleccionar Cluster Bomb,
+Abrir solapa Payloads, seleccionar el payload 1, y luego Load para cargar la lista de palabras a probar, lo mismo con el payload 2.
+Ir a la pestaña Options, en Grep Match poner Clear y escribir el mensaje que muestra por pantalla al fallar el login "Invalid credentials" por ejemplo, y hacer clic en Add,
+
+Start attack.
+```
+
 

@@ -1,10 +1,10 @@
 # Recon
-Herramientas orientadas al reconocimiento del objetivo
+Herramientas y metodologías orientadas al reconocimiento del objetivo.  
+  
 
+## Workflow / Metodologías
 
-## Workflow
-
-1. TARGET
+1. Elegir un objetivo (target)
 2. Enumeración de Subdominios
    1. findomain
    2. assetfinder
@@ -26,17 +26,26 @@ Herramientas orientadas al reconocimiento del objetivo
    3. new-size
 
 
-## Recon Everything
+## Recon Everything  
+Nota sobre como hacer un reconocimiento completo (ingles).  
 https://infosecwriteups.com/recon-everything-48aafbb8987  
 
-1. Check/Verify target’s scope (*.example.com)
-2. Find subdomains of target (Refer Subdomain tools mentioned in the article)
-3. Run masscan
-4. Check which domains resolve
-5. Take Screenshot
-6. Do Content Discovery (by bruteforcing the files and directories on a particular domain/subdomain)
+1. Verificar el scope del objetivo (*.example.com)
+2. Buscar subdominios
+3. Correr masscan
+4. Verificar cuales dominios responden
+5. Tomar capturas
+6. Descubrir contenido/subdirectorios
 
-Web Tools:  
+
+## Tips
+
+Tips para hacer Recon  
+https://hack.com.ar/?p=350  
+
+
+## Herramientas online  
+
 https://pentest-tools.com/  
 https://virustotal.com/  
 https://www.shodan.io/  
@@ -44,12 +53,6 @@ https://crt.sh/?q=%25target.com
 https://dnsdumpster.com/  
 https://censys.io  
 http://dnsgoodies.com  
-
-
-## Tips
-
-Tips para hacer Recon  
-https://hack.com.ar/?p=350 
 
 
 ## Herramientas  
@@ -102,6 +105,7 @@ https://chaos.projectdiscovery.io
 
 
 ## Fuzzing  
+Escaneo de subdirectorios. En realidad fuzz se usa para reemplazar una "porcion" de algo, por un diccionario ... normalmente se usa para escaneo de subdirectorio, buscar parámetros, etc.  
 
 afl++  
 https://github.com/AFLplusplus/AFLplusplus  
@@ -117,8 +121,8 @@ Ayuda para crear busquedas en Google
 https://dorks.faisalahmed.me/   
 
 
-## Pasos de "El Mago"  
-Estos son unos pasos que hizo [Adrian "El Mago"](https://twitter.com/soyelmago) , en un twich o video que participé
+## Pasos de Alan Levy "El Mago"  
+Estos son unos pasos que hizo [Adrian "El Mago"](https://twitter.com/soyelmago) , en un twich o video que participé.  
 
 https://www.youtube.com/watch?v=-eXsnEb4EFo  
 
@@ -169,7 +173,6 @@ ffuf -w ~/tools/Diccionarios/content_discovery_all.txt -u https://GOOGLE.com/FUZ
 ```
 
 
-
-
-
+## Más metodologías
+En la sección de [training](training.md) hay más metodologías de escaneo.  
 
