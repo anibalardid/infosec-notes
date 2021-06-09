@@ -1,5 +1,5 @@
 # Payloads
-Listado de recursos con payloads y ejemplos  
+Listado de recursos con payloads y ejemplos.  
 
 SecLists
 Listado de multiples listas de todo tipo, usuarios, contraseñas, urls, fuzzing, payloads, etc.  
@@ -115,3 +115,4 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecur
 OneListForAll  
 Rockyou for web fuzzing  (ffuf)  
 https://github.com/six2dez/OneListForAll  
+

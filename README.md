@@ -50,42 +50,42 @@ Acá resumo algunos de los laboratorios más conocidos.
 
 ### Pentest Lab
 
-Diferentes ambientes locales con varios proyectos.
-Corre bajo imagenes de docker. E incluye diferentes herramientas de monitorización que pueden usarse para tareas del blue team.
+Diferentes ambientes locales con varios proyectos.  
+Corre bajo imagenes de docker. E incluye diferentes herramientas de monitorización que pueden usarse para tareas del blue team.  
 
-https://github.com/oliverwiegers/pentest_lab
+https://github.com/oliverwiegers/pentest_lab  
 
 
 ### PortSwigger Web Security Academy
-PortSwigger es la empresa detras de Burp Suite (uno de los programas mas importantes para pentesting), y tiene una plataforma muy completa de enseñanza que incluye laboratorios de pruebas, con ejemplos y ayudas sobre como resolver ejercicios.
-https://portswigger.net/web-security
-https://portswigger.net/web-security/all-labs
+PortSwigger es la empresa detras de Burp Suite (uno de los programas mas importantes para pentesting), y tiene una plataforma muy completa de enseñanza que incluye laboratorios de pruebas, con ejemplos y ayudas sobre como resolver ejercicios.  
+https://portswigger.net/web-security   
+https://portswigger.net/web-security/all-labs  
 
 ### TryHackMe
-TryHackme es una web donde se puede acceder a muchos laboratorios gratuitos y pagos. Ademas de poseer cursos y certificaciones.
-https://tryhackme.com/
-https://tryhackme.com/hacktivities
+TryHackme es una web donde se puede acceder a muchos laboratorios gratuitos y pagos. Ademas de poseer cursos y certificaciones.  
+https://tryhackme.com/  
+https://tryhackme.com/hacktivities  
 
 ### HackTheBox (HTB)
-Plataforma similar a las previas, con una comunidad y redes sociales muy activas. Como las anteriores también incluye una academia de formación y certificaciones.
-https://www.hackthebox.eu/
-https://academy.hackthebox.eu/
-https://help.hackthebox.eu/
-
+Plataforma similar a las previas, con una comunidad y redes sociales muy activas. Como las anteriores también incluye una academia de formación y certificaciones.  
+https://www.hackthebox.eu/  
+https://academy.hackthebox.eu/  
+https://help.hackthebox.eu/  
+  
 ### Vulnhub
-https://www.vulnhub.com/
+https://www.vulnhub.com/  
 
 ### Root-Me
-https://www.root-me.org/
+https://www.root-me.org/  
 
 ### Virtual Hacking Labs
-https://www.virtualhackinglabs.com/
+https://www.virtualhackinglabs.com/  
 
 ### Laboratorios locales con Docker  
-https://github.com/vulhub/vulhub  
+https://github.com/vulhub/vulhub    
 
 ### Hacker101 CTF
-https://ctf.hacker101.com/  
+https://ctf.hacker101.com/    
 
 --- 
 
