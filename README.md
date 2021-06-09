@@ -180,7 +180,7 @@ Para que esté todo más ordenado hice archivos y secciones separadas:
 
 * [Capacitación y Certificaciones](training.md)  
 
-* [CheetSheets](cheetsheers.md)  
+* [CheetSheets](cheetsheets.md)  
 
 * [OneLiners](oneliners.md)  
 
