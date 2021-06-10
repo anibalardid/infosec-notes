@@ -86,6 +86,9 @@ https://www.youtube.com/watch?v=B2bVviEts1M
 Uso de la herramienta AMASS  
 https://blog.intigriti.com/2021/06/08/hacker-tools-amass-hunting-for-subdomains/  
 
+Instalación y configuración de Nuclei  
+https://pdelteil.medium.com/how-to-properly-install-nuclei-2619989a5109  
+
 
 ---  
 
@@ -181,6 +184,9 @@ https://brutelogic.com.br/blog/csp-bypass-guidelines/
 Escalar XSS a Account Takeover  
 https://theamanrawat.github.io/2021/02/01/xss-to-account-takeover-payu.html  
   
+Account Takeover  
+https://whoistaha.medium.com/xss-to-account-takeover-gambling-sites-bafa5ef88fa  
+
   
 ## Write-Ups Ippsec
 Writeups en video resueltas por IppSec

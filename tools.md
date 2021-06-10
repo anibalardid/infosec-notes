@@ -61,7 +61,8 @@ https://github.com/chvancooten/BugBountyScanner
 
 
 OSMEDEUS  
-Reconocimiento automático y escaneo en pruebas de Penetración.  
+Reconocimiento automático y escaneo en pruebas de Penetración. Pruebas automatizadas.  
+Contiene instalador para instalar todas las dependencias necesarias.   
 https://j3ssie.github.io/Osmedeus/  
 https://github.com/j3ssie/Osmedeus  
 
@@ -222,12 +223,15 @@ MagicRecon is a powerful shell script to maximize the recon and data collection 
 https://github.com/robotshell/magicRecon  
 
 
+Xsshunter  
 Xsshunter.com  
 Para probar xss y ver como llega el request  
+
 
 GTFOBins  
 https://gtfobins.github.io/  
 GTFOBins es una lista seleccionada de binarios de Unix que se pueden utilizar para eludir las restricciones de seguridad locales en sistemas mal configurados.   
+
 
 QuickXSS  
 Automatización para buscar XSS usando diferentes herramientas(Waybackurls, GF, GF Patterns y Dalfox)  
@@ -242,6 +246,11 @@ https://kalilinuxtutorials.com/wordpress-brute-force/
 RECON  
 All in One Recon . Recon todo en uno, usando varias herramientas.  
 https://github.com/dirsoooo/Recon  
+
+qsreplace  
+Reemplace valores en parametros de url.  
+https://github.com/tomnomnom/qsreplace  
+
 
 
 ## Herramientas para crackeo de contraseñas  

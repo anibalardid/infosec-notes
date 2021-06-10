@@ -7,7 +7,7 @@ for h in $(cat hosts.txt); do curl -siL https://$h|sed -n -E "s/.*<.*(href|src|u
 
 - la salida del assetfinder (busca subdominios) se la pasa al httprobe (busca servicios HTTP prendidos) y lo saca a salida.txt
 ```bash
-assetfinder --subs-only dominio.com | httprobe | tee | -a salida.txt
+assetfinder --subs-only dominio.com | httprobe | tee -a subs.txt
 ```
 
 Escaneo de dominios y subdominios
