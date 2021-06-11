@@ -89,6 +89,9 @@ https://blog.intigriti.com/2021/06/08/hacker-tools-amass-hunting-for-subdomains/
 Instalación y configuración de Nuclei  
 https://pdelteil.medium.com/how-to-properly-install-nuclei-2619989a5109  
 
+Pivoting sin usar Metasploit  
+https://www.youtube.com/watch?v=_7b_GQDfA5M  
+
 
 ---  
 

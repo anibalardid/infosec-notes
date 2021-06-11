@@ -369,3 +369,30 @@ www.google.com; pwd
 También se puede usar la herramienta Commix.  
 
 
+- XML / Path Injection
+
+Se prueba por ejemplo ingresar comillas simples o dobles en un form, y si muestra un error de XML es una señal.  
+
+Ejemplo de inyecciones:  
+```
+' or 1=1 or '
+' or position()=1 or '
+' or position()=2 or '
+
+```
+
+
+- SMTP Mail Header Injection
+
+Inyección posible en formularios de contacto.  
+
+Probar interceptar trafico con Burp para ver lo que se envía como request.  
+
+Probar agregar en el email del usuario:  
+`direcciondelusuario@server.com%0ACc:otradireccion@email.com`  
+
+Templates para hacer email phishing.  
+https://github.com/wildbit/postmark-templates  
+
+En Burp , hay una solapa decoder donde se puede copiar el contenido para codificarlo.  
+
