@@ -66,10 +66,20 @@ Contiene instalador para instalar todas las dependencias necesarias.
 https://j3ssie.github.io/Osmedeus/  
 https://github.com/j3ssie/Osmedeus  
 
+ReconFTW  
+Herramienta para hacer un recon completo, busqueda de vulnerabilidades, etc.  
+Tiene versión para correr desde un docker.  
+https://github.com/six2dez/reconftw  
+
 
 GitDorker  
 Busca en repositorios de github si hay información sensible  
 https://github.com/obheda12/GitDorker
+
+
+gron  
+Hacer que un json sea grepeable, para poder tirar filtros o busquedas desde linea de comandos  
+https://github.com/TomNomNom/gron  
 
 
 Admin Scanner  

