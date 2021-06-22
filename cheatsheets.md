@@ -4,7 +4,7 @@ Diferentes plantillas para tener a mano comandos utiles, checklists, herramienta
 
 ## Subdomains Enumeration Cheat Sheet
 https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html
-
+ 
 ## OWASP XSS Cheat Sheet
 https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 
@@ -14,6 +14,12 @@ https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 ## Checklist de que cosas deberían revisarse en pentesting web  (by Alan Levi - @SoyElMago) 
 https://github.com/alanbriangh/Magic-CheckList-for-Web-Applications/blob/master/Magic%20CheckList%20for%20Web%20Applications.md  
 https://github.com/alanbriangh/Magic-CheckList-for-Web-Applications/blob/master/Magic-CheckList-for-Web-Applications-EN.MD  
+
+## Web App pentesting checklist (por THE XSS RAT)  
+https://hacklido.com/blog/183  
+
+#### Checklist Methodology  
+https://gist.github.com/jhaddix/6b777fb004768b388fefadf9175982ab#file-wahh_task_checklist-md   
 
 ## pentestmonkey - Reverse Shell  
 http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet  
@@ -25,4 +31,3 @@ http://pentestmonkey.net/category/cheat-sheet/sql-injection
 ## API Checklist  
 https://twitter.com/HolyBugx/status/1396758673439985667/photo/1  
 https://twitter.com/HolyBugx/status/1396758673439985667/photo/2  
-

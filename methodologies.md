@@ -11,6 +11,10 @@ https://securib.ee/beelog/the-best-bug-bounty-recon-methodology/
 https://www.bugbountyhunter.com/methodology/zseanos-methodology.pdf  
 
 
+## Listados con checklists  
+En el apartado [cheatsheets](cheatsheets.md) hay varios checklists con pasos o cosas que chequean diferentes hackers.  
+  
+  
 ## Diferentes Estrategias/Métodologías de Bug Bounty
 
 **Opción 1**  

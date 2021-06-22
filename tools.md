@@ -18,6 +18,12 @@ https://addons.mozilla.org/es/firefox/addon/penetration-testing-kit/
 
 ## Herramientas varias  
 
+Alternativas Modernas  
+Este es un listado de alternativas mas modernas a las clásicas q ya usamos en consola.  
+Por ejemplo con mas información, colores, etc.  
+https://github.com/ibraheemdev/modern-unix  
+
+
 Asciinema - grabar consola  
 https://asciinema.org/
 
@@ -236,6 +242,11 @@ https://github.com/robotshell/magicRecon
 Xsshunter  
 Xsshunter.com  
 Para probar xss y ver como llega el request  
+
+
+BugBountyAutomation  
+Para hacer un recon usando las herramientas subfindes, httprobe, aquatone, anew, waybackurls.  
+https://github.com/rejinold/BugBountyAutomation  
 
 
 GTFOBins  

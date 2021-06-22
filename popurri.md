@@ -139,12 +139,6 @@ httprobe:
 https://github.com/tomnomnom/httprobe  
 
 
-
-
-#### Checklist Methodology
-https://gist.github.com/jhaddix/6b777fb004768b388fefadf9175982ab#file-wahh_task_checklist-md  
-
-
 --- 
 
 ### Broken Access Control
