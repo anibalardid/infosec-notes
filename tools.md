@@ -233,6 +233,10 @@ https://micro-editor.github.io/
 Mails Temporales  
 https://www.guerrillamail.com/  
 
+Cheat  
+Herramienta para tener a mano ayudas/cheats desde la terminal/consola  
+https://github.com/cheat/cheat  
+
 
 Magic Recon  
 MagicRecon is a powerful shell script to maximize the recon and data collection process of an objective and finding common vulnerabilities, all this saving the results obtained in an organized way in directories and with various formats.    
@@ -262,6 +266,15 @@ https://github.com/theinfosecguy/QuickXSS
 WordPress Brute Force  
 Super rápido, fuerza bruta para login en WordPress  
 https://kalilinuxtutorials.com/wordpress-brute-force/  
+
+
+WPSeku  
+WordPress Security Scanner  
+https://github.com/NoorQureshi/WPSeku-1  
+
+WPScan  
+WordPress Security Scanner  
+https://github.com/wpscanteam/wpscan  
 
 
 RECON  
