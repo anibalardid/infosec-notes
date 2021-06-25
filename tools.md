@@ -205,9 +205,12 @@ https://www.youtube.com/watch?v=ZcG8ARatgs0
 
 
 Awesome Bug Bounty Tools Awesome  
-A curated list of various bug bounty tools   
+Lista con varias herramientas para bug bounty  
 https://github.com/vavkamil/awesome-bugbounty-tools  
 
+A collection of awesome API Security tools and resources.  
+Colección de recursos y herramientas para testear API's  
+https://github.com/arainho/awesome-api-security
 
 Spyse  
 Recon de hosts, busca con diferentes sufijos , subdominios, tira también CVE 
@@ -215,6 +218,7 @@ https://spyse.com/
 
 
 JS tools  
+Herramientas para analizar archivos .js  
 https://github.com/GerbenJavado/LinkFinder  
 https://github.com/m4ll0k/SecretFinder  
 https://github.com/Sh1Yo/x8  

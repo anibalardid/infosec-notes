@@ -48,6 +48,12 @@ https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b
 
 ## Cursos y Tutoriales
 
+Curso completo de Hacking Etico (Ingles)  
+https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course  
+
+Convertite en Hacker Etico en 15 horas (Ingles)  
+https://www.udemy.com/course/become-ethical-hacker-in-15-hours/   
+
 Curso Introducción al pentesting en español (lista de youtube)  
 https://www.youtube.com/watch?v=v8E0_Swe89c&list=PLXm1FM6zsxpBxKtPzT-pQVKoUFXZkuqkh  
 
