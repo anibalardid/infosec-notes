@@ -293,6 +293,18 @@ https://github.com/tomnomnom/qsreplace
 Postmark Email Templates  
 https://github.com/wildbit/postmark-templates  
 
+GitDump  
+Obtené el codigo fuente de .git cuando esta deshabilitado el directory transversal  
+https://github.com/Ebryx/GitDump  
+
+403 Bypasser  
+Herramienta para saltear filtros de error 403 (autorización) en API's o páginas con valicación  
+https://github.com/yunemse48/403bypasser  
+
+R3C0Nizer  
+Framework de Recon, con varias herramientas.  
+https://github.com/Anon-Artist/R3C0Nizer  
+
 
 ## Herramientas para crackeo de contraseñas  
 Hydra  

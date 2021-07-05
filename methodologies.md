@@ -93,6 +93,36 @@ assetfinder target.com | hakrawler | kxss
 6)  
 
 
+---
+
+**Opción 5**
+gau -subs example.com | unfurl domains>> vul1.txt   
+waybackurls example.com | unfurl domains >> vul2.txt   
+subfinder -d example.com -silent >> vul3.txt   
+
+Ahora recopila todos los subdominios en uno y clasifica los duplicados   
+cat vul1.txt vul2.txt vul3.txt | sort -u >> unique_sub.txt  
+
+Luego buscar en github por ejemplo:  
+“testdev.example.com” user:<username> <keytosearch>  
+“corps.example.com” user:<username> <keytosearch>  
+“test.example.com” user:<username> <keytosearch>  
+
+
+“testdev.admin.example.com” user:<username> auth_token  
+“testdev.admin.example.com” user:<username> apikey  
+“testdev.admin.example.com” user:<username> secret  
+
+“corps.example.com” org:<name of organization> “/admin/dashboard”  
+“testdev.example.com” org:<name of organization> “/users/dashboard”  
+“example.com” org:<name of organization> “/admin/setup”  
+
+“example.com” org:<name of organization> “next_url”  
+“example.com” org:<name of organization> “img_url”  
+
+“example.com” org:<name of organization> “image”  
+
+
 --- 
 
 **Opción usando QuickXSS**  
@@ -423,6 +453,13 @@ Si responden, se puede hacer un `which nc` para saber el path de netcat , y ejec
 
 
 - HTML Insecure Local Storage  
+
+Hace referencia a que mediante XSS se pueden obtener datos de localstorage.  
+
+
+- XML External Entity Attack (XXE)  
+
+Se modifica el payload de xml para incluir llamadas y ejecuciones del sistema.  
 
 
 

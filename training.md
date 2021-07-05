@@ -18,6 +18,8 @@
 
 [Web App Hacking: Cross-Site Request Forgery (CSRF) ](https://docs.google.com/document/d/1v8m8h1I-tlH7vzCoJ1y41ZSMwP23J8YAn2YJ23P1Jog/edit?usp=sharing)  
 
+[Became Ethical Hacker in 15 Hours (2021) ](https://docs.google.com/document/d/1dU7CHVqAJqWdsGmU_K47OglVUUMfANF75tmL3ZKWNCk/edit?usp=sharing)  
+
 
 ---  
 
@@ -74,7 +76,10 @@ https://www.offensity.com/de/blog/just-another-recon-guide-pentesters-and-bug-bo
 
 Web Application Penetration Testing Course  
 (youtube links)  
-https://hackingresources.com/web-application-penetration-testing-course/  
+https://hackingresources.com/web-application-penetration-testing-course/   
+
+Introduccion a XSS de Universidad Bugcrowd  
+https://www.youtube.com/watch?v=gkMl1suyj3M&list=PLIK9nm3mu-S4K4jMHwtplbrE1JMg0jyN-&index=6  
 
 XSS RAT Notes  
 Demostration, methodology, vulnerabilities  
@@ -97,6 +102,16 @@ https://pdelteil.medium.com/how-to-properly-install-nuclei-2619989a5109
 
 Pivoting sin usar Metasploit  
 https://www.youtube.com/watch?v=_7b_GQDfA5M  
+
+Como usar google para hacking (dorking)  
+https://infosecwriteups.com/dorking-for-bug-bounties-d81cc857b2c8  
+
+Aprender a usar Burp Suite  
+https://www.youtube.com/playlist?list=PLZOToVAK85MorLmAqD3117C0s9h7ccxaV  
+https://www.youtube.com/watch?v=jSjDHdifhe0  
+
+Introduccion a Burp Suite de Bugcrowd  
+https://www.youtube.com/watch?v=h2duGBZLEek  
 
 
 ---  

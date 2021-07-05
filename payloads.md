@@ -29,6 +29,11 @@ https://github.com/RenwaX23/XSS-Payloads
 https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md 
 
 
+WAF XSS Evasion  
+Como evadir con diferentes payloads, filtros de firewalls  
+https://hacklido.com/blog/252-xss-filter-evasion-and-waf-bypassing  
+
+
 XSS  
 https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/xss.md 
 https://github.com/ismailtasdelen/xss-payload-list 

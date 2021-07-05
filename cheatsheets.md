@@ -18,8 +18,14 @@ https://github.com/alanbriangh/Magic-CheckList-for-Web-Applications/blob/master/
 ## Web App pentesting checklist (por THE XSS RAT)  
 https://hacklido.com/blog/183  
 
-#### Checklist Methodology  
+## Checklist Methodology  
 https://gist.github.com/jhaddix/6b777fb004768b388fefadf9175982ab#file-wahh_task_checklist-md   
+
+## Web Application Pentest Checklist  (Tushar Verma)  
+https://github.com/e11i0t4lders0n/Web-Application-Pentest-Checklist  
+https://www.notion.so/Web-Application-Penetration-Testing-Checklist-4792d95add7d4ffd85dd50a5f50659c6  
+
+
 
 ## pentestmonkey - Reverse Shell  
 http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet  
@@ -31,3 +37,5 @@ http://pentestmonkey.net/category/cheat-sheet/sql-injection
 ## API Checklist  
 https://twitter.com/HolyBugx/status/1396758673439985667/photo/1  
 https://twitter.com/HolyBugx/status/1396758673439985667/photo/2  
+
+
