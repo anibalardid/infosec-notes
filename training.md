@@ -136,22 +136,7 @@ https://www.offensive-security.com/courses-and-certifications/
 
 ## Metodologías
 
-Bug Bounty Roadmap  
-The Bug Hunter’s Methodology v4 Roadmap  
-https://github.com/1ndianl33t/Bug-Bounty-Roadmaps 
-
-Bug Bounty Hunting Methodology v2 - Jason Haddix from Bugcrowd's LevelUp 2017  
-https://www.youtube.com/watch?v=C4ZHAdI8o1w
-
-The Bug Hunter's Methodology v4.0 - Recon Edition by @jhaddix #NahamCon2020!  
-https://www.youtube.com/watch?v=p4JgIu1mceI   
-
-LevelUp 0x02 - Bug Bounty Hunter Methodology v3  
-https://www.youtube.com/watch?v=Qw1nNPiH_Go  
-
-XSS Rat's methodology  
-https://github.com/heilla/SecurityTesting/blob/master/notes/Rat's%20methodology%20e728e0cffd8d429e8f9a1317b05feadf.md  
-
+[Ir a apartado de metodologías](methodologies.md)  
 
 --- 
 
@@ -237,6 +222,7 @@ https://www.twitch.tv/securepodcast
 https://www.twitch.tv/ekoparty  
 https://www.twitch.tv/arl_rose  
 https://www.twitch.tv/dimineko  
+https://www.twitch.tv/lea_cyber  
 
 
 ### YouTube

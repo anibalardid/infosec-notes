@@ -78,11 +78,6 @@ Tiene versión para correr desde un docker.
 https://github.com/six2dez/reconftw  
 
 
-GitDorker  
-Busca en repositorios de github si hay información sensible  
-https://github.com/obheda12/GitDorker
-
-
 gron  
 Hacer que un json sea grepeable, para poder tirar filtros o busquedas desde linea de comandos  
 https://github.com/TomNomNom/gron  
@@ -180,6 +175,17 @@ GitDorker
 Es una herramienta para usar la api de busqueda de github información sensible.  
 https://github.com/obheda12/GitDorker/    
 https://obheda12.medium.com/gitdorker-a-new-tool-for-manual-github-dorking-and-easy-bug-bounty-wins-92a0a0a6b8d5  
+GitGrabber  
+Similar  
+https://github.com/hisxo/gitGraber  
+GitGot  
+Otra tool para buscar info sensible en repos 
+https://github.com/BishopFox/GitGot
+
+Grep App  
+Para buscar cualquier cosa dentro de repositorios de github  
+https://grep.app/  
+
 
 TLD extensiones de dominios  
 https://raw.githubusercontent.com/DragonJAR/Scripts/master/all-domain-extensions.txt  
@@ -280,6 +286,10 @@ WPScan
 WordPress Security Scanner  
 https://github.com/wpscanteam/wpscan  
 
+wp_hunter  
+Busca Vulnerabilidades en WordPress  
+https://github.com/Josue87/wp_hunter  
+
 
 RECON  
 All in One Recon . Recon todo en uno, usando varias herramientas.  
@@ -305,6 +315,12 @@ R3C0Nizer
 Framework de Recon, con varias herramientas.  
 https://github.com/Anon-Artist/R3C0Nizer  
 
+GoBuster  
+Bruteforce para descubrir directorios, archivos, subdominios, vhost, s3 buckets.  
+https://github.com/OJ/gobuster  
+
+Tutorial GoBuster  
+https://blog.intigriti.com/2021/07/05/hacker-tools-gobuster-the-all-in-one-tool-for-you/  
 
 ## Herramientas para crackeo de contraseñas  
 Hydra  
