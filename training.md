@@ -113,6 +113,9 @@ https://www.youtube.com/watch?v=jSjDHdifhe0
 Introduccion a Burp Suite de Bugcrowd  
 https://www.youtube.com/watch?v=h2duGBZLEek  
 
+Ayudas y Artículos sobre usar Burp Suite para Pentesting  
+https://github.com/Ignitetechnologies/BurpSuite-For-Pentester  
+
 
 ---  
 
@@ -196,6 +199,8 @@ https://theamanrawat.github.io/2021/02/01/xss-to-account-takeover-payu.html
 Account Takeover  
 https://whoistaha.medium.com/xss-to-account-takeover-gambling-sites-bafa5ef88fa  
 
+Writeups de HackTheBox CTF  
+https://github.com/Ignitetechnologies/HackTheBox-CTF-Writeups  
   
 ## Write-Ups Ippsec
 Writeups en video resueltas por IppSec

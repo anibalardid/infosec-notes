@@ -144,7 +144,7 @@ https://github.com/tomnomnom/httprobe
 ### Broken Access Control
 Tips de El Mago
 
-ejemplo de writeup    
+Ejemplo de writeup    
 https://galnagli.com/Samsung_Exposure/  
 https://notifybugme.medium.com/unauthorized-access-to-admin-setpassword-page-by-bypass-403-forbidden-f10bbb92ab35  
 
