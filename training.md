@@ -162,6 +162,10 @@ Que es #BugBounty y como empezar a #CazarVulnerabilidades (Alan Levy)  https://w
 
 ## Write-Ups  
 
+R4zor Writeups   
+Muy buenos writeups en español   
+https://juankaenel.com/blog/   
+   
 Recon Everything  
 https://infosecwriteups.com/recon-everything-48aafbb8987  
 
