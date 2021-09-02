@@ -166,6 +166,10 @@ R4zor Writeups
 Muy buenos writeups en español   
 https://juankaenel.com/blog/   
    
+Wackyhacker Writeups   
+Muy buenos writeups en español   
+https://wackyhacker.github.io/categories/   
+   
 Recon Everything  
 https://infosecwriteups.com/recon-everything-48aafbb8987  
 
