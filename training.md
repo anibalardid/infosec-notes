@@ -169,6 +169,11 @@ https://juankaenel.com/blog/
 Wackyhacker Writeups   
 Muy buenos writeups en español   
 https://wackyhacker.github.io/categories/   
+
+Lanz Writeups   
+Muy buenos writeups en español   
+https://lanzt.github.io/blog/  
+
    
 Recon Everything  
 https://infosecwriteups.com/recon-everything-48aafbb8987  
