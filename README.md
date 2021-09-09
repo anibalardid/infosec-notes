@@ -87,6 +87,13 @@ https://github.com/vulhub/vulhub
 ### Hacker101 CTF
 https://ctf.hacker101.com/    
 
+### OWASP Juice Shop   
+https://owasp.org/www-project-juice-shop/   
+   
+### Vulenrable Web Applications   
+https://www.vulnerablewebapps.org/   
+
+
 --- 
 
 Todas estas plataformas cuentan con retos y máquinas preparadas para ser vulneradas. En caso de no saber cómo empezar a afrontar estos desafíos pongo algunos lugares para entender de que va todo esto.  
