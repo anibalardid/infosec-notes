@@ -1,5 +1,10 @@
 # Varias cositas  
 
+## Plantillas y ejemplos de reportes
+Esto sirve para tomar como base cuando se quiere enviar un reporte sobre una vulnerabilidad.   
+https://hacktify.in/bugbounty/   
+  
+
 ## Comandos y funciones Bash utiles  
 
 extractPorts  
