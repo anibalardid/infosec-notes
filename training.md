@@ -1,5 +1,9 @@
 # Capacitación
 
+Hacking Recipes   
+https://www.thehacker.recipes/   
+
+
 ## Apuntes de cursos realizados  
 
 [Aprenda Hacking Web y Pentesting](https://docs.google.com/document/d/10o9liBmBNCVwSOPDAdBL9mNI2oumCjHWNnqMQoZpf54/edit?usp=sharing)  
